@@ -8,10 +8,16 @@
     display: flex;
     height: 70px;
     align-items: center;
+    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+
   }
   &-item {
     flex: 0 1 auto;
     padding: 0 10px;
+    font-family: 'proxima-nova', sans-serif;
+    color: white;
   }
   &-menu {
     flex: 1 1 auto;
@@ -19,6 +25,9 @@
     justify-content: flex-end;
     padding: 0 10px;
     position: relative;
+    font-family: 'proxima-nova', sans-serif;
+    color: white;
+    font-size: 14px;
     // &-btn {
     //   line-height: 40px;
     //   color: #E6E6E6;
@@ -45,13 +54,14 @@
     //   border: 1px solid #CCCCCC;
     // }
   }
-  // &-link {
-  //   color: #616668;
-  //   font-size: 14px;
-  //   &:hover {
-  //     color: #da552f;
-  //     text-decoration: none;
-  //   }
+  &-link {
+    color: white;
+    font-size: 14px;
+    &:hover {
+      color: $yellow;
+      text-decoration: none;
+    }
+  }
   // }
   // &-button {
   //   padding: 0 20px;

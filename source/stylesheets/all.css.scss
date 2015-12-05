@@ -15,5 +15,19 @@
 
 h1 {
   margin: 0px;
+}
+
+h3 {
   margin: 0px;
 }
+
+a {
+  &:visited {
+    text-decoration: none;
+    color: white;
+  }
+  &:link {
+    text-decoration: none;
+  }
+}
+
