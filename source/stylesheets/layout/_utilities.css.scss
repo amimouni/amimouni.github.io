@@ -4,12 +4,18 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
-// Paddings
-.padded-bottom {
-  padding-bottom: 6em;
+.container {
+  padding: 0;
+  width: 100%;
+}
+.paragraph {
+  padding: 150px 0 150px;
 }
 
 // Backgrounds
+.bg-grey {
+  background: #FBFBFB;
+}
 .bg-text {
   background: #4a4a4a;
 }
@@ -26,8 +32,4 @@
 .content-padded-left-right {
   padded-left: 4em;
   padded-right: 4em;
-}
-
-.bg-grey {
-  background: #00a3e1;
 }
