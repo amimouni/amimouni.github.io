@@ -17,6 +17,11 @@ h1 {
   margin: 0px;
 }
 
+h2 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
 h3 {
   margin: 0px;
 }
@@ -39,6 +44,14 @@ a {
 .paragraph {
   padding: 150px 0px 150px 0px;
   width: 100%;
+  color: yellow;
+  display: flex;
+}
+
+.paragraph .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-nav-container {
