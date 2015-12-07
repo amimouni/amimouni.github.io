@@ -19,6 +19,9 @@
   .navbar-sublimes a {
     color: black;
   }
+  .navbar-sublimes .getinvolved-link a {
+    color: $yellow;
+  }
   .navbar-sublimes a:hover {
     color: $yellow;
     text-decoration: none;
