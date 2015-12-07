@@ -1,5 +1,7 @@
-
 .getinvolved {
+  .navbar-sublimes-container{
+    position: relative;
+  }
   h1 {
     margin: 0px;
     color: $gray-darker;
@@ -14,7 +16,13 @@
   h3 {
     margin: 0px;
   }
-
+  .navbar-sublimes a {
+    color: black;
+  }
+  .navbar-sublimes a:hover {
+    color: $yellow;
+    text-decoration: none;
+  }
   p {
     color: $gray-light;
   }
