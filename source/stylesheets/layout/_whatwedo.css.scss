@@ -1,18 +1,153 @@
-h1 {
-  margin: 0px;
-  color: $yellow;
+.whatwedo-container {
+  .white-font {
+    h1 {
+      color: white;
+    }
+
+     p {
+      color: white;
+    }
+    li {
+      color: white;
+    }
+
+  }
+
+  h1 {
+
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 32px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    color: #595A57;
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
+
+  h2 {
+    margin-top: -18px;
+    margin-bottom: 20px;
+    color: #595A57;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 22px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+
+  h3 {
+    margin: 0px;
+    font-family: 'proxima-nova', sans-serif;
+    color: $red;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+  p {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(26,26,26,.7)
+  }
+
+  ul {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(26,26,26,.7)
+  }
+  &-button {
+
+    font-family: 'proxima-nova', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 .8em;
+    text-rendering: optimizeLegibility;
+    background-color: none;
+    coler: #ce0a0f;
+    border-radius: 86px;
+    line-height: 74px;
+    padding: 18px 34px;
+    border-width: 2px;
+    border: 3px solid #ce0a0f;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    &:hover {
+      color: white;
+      border-color: $red;
+      background-color: $red;
+      text-decoration: none;
+      text-shadow: none;
+    }
+    &:visited {
+    text-decoration: none;
+    }
+
+  }
+
+  & .date-apply-padding-down a:visited {
+    color: $red;
+  }
+    & .date-apply-padding-down a:visited:hover {
+    color: white;
+  }
+
+  .square-bg {
+    padding: 0px 25px 25px 25px;
+    border-radius: 4px;
+    border: 2px solid #D0D0CF;
+  }
+
+  & .howwedo-content {
+    margin: 50px 0 50px 0;
+  }
+
 }
 
-h2 {
-  margin-top: 25px;
-  margin-bottom: 50px;
-  color: $yellow;
+.red-title {
+  color: $red;
 }
 
-h3 {
-  margin: 0px;
+.price-padding {
+padding-bottom: 7%;
 }
 
-p {
-  color: $yellow;
+.price a:visited {
+  color: $red;
+}
+.price a:visited:hover {
+    color: white;
+}
+
+.button-paddingtop {
+  padding-top: 8px;
+}
+
+
+.png-items-padding-bottom {
+  padding-bottom: 14%;
+}
+
+
+.btn-red {
+  background-color: none !important;
+  border: 2px solid $red;
 }

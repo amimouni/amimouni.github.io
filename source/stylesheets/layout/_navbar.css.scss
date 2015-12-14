@@ -2,7 +2,8 @@
   // box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: none;
   &-logo {
-    width: 50px;
+    width: 100px;
+    font-size: 20px;
   }
   &-container {
     display: flex;
@@ -11,6 +12,17 @@
     align-items: center;
     position: absolute;
     z-index: 999;
+    span {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 8px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1em;
+
+    }
+
   }
   // &-item {
   //   flex: 0 1 auto;
@@ -25,15 +37,34 @@
     font-family: 'proxima-nova', sans-serif;
     color: white;
     font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1em;
   }
   &-link {
     // color: white;
     // font-size: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1em;
     padding: 0 20px 0 20px;
   }
   & a:hover {
-    color: $yellow;
+    color: $red;
     text-decoration: none;
+    text-shadow: none;
+  }
+  a:active {
+    color: $blue;
+    text-decoration: none;
+    text-shadow: none;
   }
   // }
   // &-button {

@@ -10,52 +10,82 @@
   // align-content: center;
   margin: 0px;
   align-items: center;
-  h1 {
+  p {
     font-family: 'proxima-nova', sans-serif;
-    font-size: 50px;
-    font-weight: 400;
-    color: white;
+    font-size: 68px;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    letter-spacing: 0.0588235em;
+    padding-top: 20%;
     margin: 0px;
     text-shadow: 0px 2px 2px #5A5A5A;
   }
-  h2 {
+  h1 {
     font-family: 'proxima-nova', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    color: white;
+    font-size: 32px;
+    line-height: 1.2em;
+    // text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: normal;
     text-shadow: 0px 2px 2px #5A5A5A;
+    margin: 1em 0 .5em;
+    text-rendering: optimizeLegibility;
+
   }
   &-button {
-    padding: 12px 22px;
-    border-radius: 2px;
-    line-height: 40px;
-    background-color: none;
+
+    font-family: 'proxima-nova', sans-serif;
     color: white;
-    font-size: 20px;
-    border: 3px solid $brand-color;
+    background-color: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: normal;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    margin: 1em 0 .8em;
+    text-rendering: optimizeLegibility;
+    background-color: none;
+
+    border-radius: 86px;
+    line-height: 74px;
+    padding: 18px 34px;
+    border: 2px solid white;
     &:hover {
       color: black;
-      border-color: $yellow;
-      background-color: $yellow;
+      border-color: $red;
+      background-color: $red;
       text-decoration: none;
+      text-shadow: none;
     }
   }
 }
 
 .banner-container {
-  h3 {
+  h2 {
     font-family: 'proxima-nova', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     font-weight: 300;
-    color: white;
+    font-style: normal;
     text-shadow: 0px 2px 2px #5A5A5A;
-    margin-bottom: 20px;
+    margin: 1em 0 .8em;
+    text-rendering: optimizeLegibility;
   }
+
+  .date-apply-padding-down {
+    padding-top: 120px;
+    flex: 1;
+  }
+
 }
 
-.date-apply-padding-down {
-  padding-top: 120px;
-  flex: 1;
-}
 
 

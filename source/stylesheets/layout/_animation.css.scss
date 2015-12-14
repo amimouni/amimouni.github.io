@@ -1,5 +1,5 @@
-$duration: 2s;
-$delay: 1s;
+$duration: 1s;
+$delay: 0.7s;
 
 $initial-top: -20px;
 $initial-opacity: 0;
@@ -59,4 +59,20 @@ $final-top: 0;
   animation: fadeAndSlide $duration $delay ease forwards;
   -webkit-animation: fadeAndSlide $duration $delay ease forwards;
   -moz-animation: fadeAndSlide $duration $delay ease forwards;
+}
+
+.desc-wrapper {
+    // -webkit-animation: feature-text-anim .75s ease-in-out;
+    animation: feature-text-anim .75s ease-in-out;
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    max-width: 956px;
+    -moz-box-sizing: border-box;
+    // -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 32px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
 }
