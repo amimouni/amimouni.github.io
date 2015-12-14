@@ -12,6 +12,7 @@
     align-items: center;
     position: absolute;
     z-index: 999;
+
     span {
     font-size: 20px;
     text-transform: uppercase;
@@ -22,6 +23,9 @@
     line-height: 1em;
 
     }
+
+    padding-right: 3em;
+    padding-left: 3em;
 
   }
   // &-item {
