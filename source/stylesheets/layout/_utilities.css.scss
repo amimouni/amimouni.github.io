@@ -33,6 +33,10 @@
   background: $green;
 }
 
+.bg-red {
+  background: $red;
+}
+
 .grey-line {
   margin-top: 28px;
   margin-bottom: 32px;
@@ -49,6 +53,9 @@
     color: white;
   }
    p {
+    color: white;
+  }
+  h2 {
     color: white;
   }
 }
