@@ -9,3 +9,18 @@ $(document).ready(function() {
     setHeight();
   });
 });
+
+
+
+$(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(window).innerHeight();
+    treeQuarterHeight = windowHeight * 3 / 4;
+    $('.window-tree-quarter-sized').css('min-height', treeQuarterHeight);
+  };
+  setHeight();
+
+  $(window).resize(function() {
+    setHeight();
+  });
+});
