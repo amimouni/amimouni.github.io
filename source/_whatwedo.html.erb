@@ -1,30 +1,51 @@
-<div class="whatwedo-container window-full-sized paragraph">
+<div class="whatwedo-container paragraph grey-bg">
   <div class="container">
     <div class="row">
       <div class"col-xs-12">
-        <div class="howwedo-content text-center">
-          <h2>One month co-living immersive project & mind accelerator for women developers, designers and entrepreneurs</h2>
-            <p>
-              Immerse yourself in an inspiring & friendly environment for a month changing life experience!
-            </p>
+        <div class="text-wrapper text-center">
+
+          <h1>One month co-living immersive mind accelerator in Lisbon
+
+          <strong>for women</strong></h1>
+          <p>
+            Developer, designer, geek, employee, entrepreneur or explorer, this is for you!
+          </p>
+        </div>
+        <div class="price price-padding fade-and-slide text-center">
+          <div>
+            <h3>Starting from <strong>550€</strong>/month.</h3>
+            <div class="button-paddingtop">
+              <%= link_to "APPLY", "#apply", class: "whatwedo-container-button" %>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="top-features window-full-sized paragraph">
+<div class="whatwedo-container grey-bg">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 text-center">
-        <h2>What we offer</h2>
+        <div class="grey-line">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="whatwedo-container paragraph grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h1>Co-living, co-working, co-boosting</h1>
+
       </div>
       <div class="col-xs-12 col-sm-4" data-sr="enter left, move 30px, over 1s">
         <div class="features text-center">
-          <div class="text-center">
-            <i class="fa fa-comment fa-dark-red"></i>
-          </div>
-          <h3>Accommodation</h3>
+          <%= image_tag "bed_red.png", width: "100", class: "png-items-padding-bottom" %>
+          <h2>Accommodation</h2>
           <p>Private & shared room <br>
             Shared kitchen and bathrooms <br>
             Central location <br>
@@ -35,28 +56,24 @@
       </div>
       <div class="col-xs-12 col-sm-4" data-sr="enter bottom, move 30px, over 1s">
         <div class="features text-center">
-          <div class="text-center">
-            <i class="fa fa-comment fa-dark-red"></i>
-          </div>
-          <h3>
+          <%= image_tag "wifi_red.png", width: "100", class: "png-items-padding-bottom" %>
+          <h2>
             Workspace
-          </h3>
+          </h2>
           <p>Internet <br>
             Coworking <br>
             Chillout area <br>
+            Coffee <br>
             Projector <br>
           </p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4" data-sr="enter right, move 30px, over 1s">
         <div class="features text-center">
-          <div class="text-center">
-            <i class="fa fa-comment fa-dark-red"></i>
-          </div>
-          <h3>Community
-          </h3>
+          <%= image_tag "community_red.png", width: "100", class: "png-items-padding-bottom" %>
+          <h2>Community
+          </h2>
           <p>
-            Coffee <br>
             Talks, brainstorming & coaching <br>
             Peer-to-peer collaboration <br>
             Like-minded people <br>
@@ -69,17 +86,31 @@
   </div>
 </div>
 
-<div class="whatwedo-container window-full-sized paragraph">
+<div class="whatwedo-container grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class="grey-line">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="whatwedo-container paragraph grey-bg">
   <div class="container">
     <div class="row">
       <div class"col-xs-12">
         <div class="howwedo-content text-center">
-          <h2>Why is The Sublimes Camp for women?</h2>
-          <p>We identify local obstacles women see to success in tech.
-          <br>We encourage women to be deliberate and purposeful in planning their careers.
-          <br>We try to open women’s eyes to leadership possibilities.
-          <br>We create and expand women’s networks.
-          </p>
+          <h1>We empower women</h1>
+          <h2>We know they are local obstacles women see to success in tech</h2>
+          <div class="container text-center">
+            <p>
+              <br>We encourage women to be deliberate and purposeful in planning their careers.
+              <br>We try to open women’s eyes to leadership possibilities.
+              <br>We create and expand women’s networks.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -87,23 +118,27 @@
 </div>
 
 
-<div class="howwedo-container window-full-sized paragraph">
+<div class="whatwedo-container paragraph grey-bg-darker">
   <div class="container">
     <div class="row">
       <div class"col-xs-12">
         <div class="whatwedo-content text-center paragraph-title">
-          <h2>What can you work on?</h2>
+          <h1>What can you work on?</h1>
           <div class="col-sm-3 col-xs-12" data-sr="enter left, move 30px, over 1s">
-            <h3>Remote work</h3>
+            <%= image_tag "remotework_red.png", width: "100", class: "png-items-padding-bottom" %>
+            <h2>Remote work</h2>
           </div>
           <div class="col-sm-3 col-xs-12" data-sr="enter bottom, move 30px, over 1s">
-            <h3>Self-directed study</h3>
+            <%= image_tag "study_red.png", width: "100", class: "png-items-padding-bottom" %>
+            <h2>Self-directed study</h2>
           </div>
-          <div class="col-sm-3 col-xs-12" data-sr="enter right, move 30px, over 1s">
-            <h3>Entrepreneurship</h3>
+          <div class="col-sm-3 col-xs-12" data-sr="enter bottom, move 30px, over 1s">
+            <%= image_tag "entrepreneurship_red.png", width: "100", class: "png-items-padding-bottom" %>
+            <h2>Entrepreneurship</h2>
           </div>
            <div class="col-sm-3 col-xs-12" data-sr="enter right, move 30px, over 1s">
-            <h3>Side-projects</h3>
+            <%= image_tag "sideproject_red.png", width: "100", class: "png-items-padding-bottom" %>
+            <h2>Side-projects</h2>
           </div>
         </div>
       </div>
@@ -111,37 +146,60 @@
   </div>
 </div>
 
+ <!-- <div class="whatwedo-container paragraph grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class"col-xs-12">
+        <div class="howwedo-content text-center">
+          <h1>Join our community</h1>
+          <form action="//thesublimes.us12.list-manage.com/subscribe/post?u=0ce30d996a3f1a97cdff4652f&amp;id=00b91c6bae" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+            <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="you@gmail.com" class="form-control" required>
+            do not remove this or risk form bot signups
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0ce30d996a3f1a97cdff4652f_00b91c6bae" tabindex="-1" value="">
+            </div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-bordered btn-bordered-primary">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
 
 
 
-<div class="howwedo-container window-full-sized paragraph">
+<div class="whatwedo-container paragraph grey-bg">
   <div class="container">
     <div class="row">
       <div class"col-xs-12">
         <div class="whatwedo-content text-center paragraph-title">
-          <h2>Why The Sublimes House?</h2>
+          <h1>Why The Sublimes House?</h1>
             <div class="col-sm-3 col-xs-12" data-sr="enter left, move 30px, over 1s">
-              <h3>Work/Life Balance</h3>
-              <p>Get immersed in an environment proven to optimize for learning.
+              <%= image_tag "lifebalance_red.png", width: "100", class: "png-items-padding-bottom" %>
+              <h2>Work & Life Balance</h2>
+              <p>Get immersed in a friendly environment proven to optimize learning.
+                Get away, get focus.
               <p>
             </div>
           <div class="col-sm-3 col-xs-12" data-sr="enter bottom, move 30px, over 1s">
-            <h3>Set weekly goals</h3>
+            <%= image_tag "goals_red.png", width: "100", class: "png-items-padding-bottom" %>
+            <h2>Set weekly goals</h2>
             <p>
-              On mondays we go for lunch to set weekly goals and see how we can help each others.
+              On Mondays set weekly goals and see how we can help each other.
             </p>
           </div>
           <div class="col-sm-3 col-xs-12" data-sr="enter bottom, move 30px, over 1s">
-            <h3>Talks and workshop</h3>
+            <%= image_tag "workshop_red.png", width: "100", class: "png-items-padding-bottom" %>
+            <h2>Talks & workshops</h2>
             <p>
               We encourage participants to share knowledge with others.
-              We organise talks with people from outside that have interesting knowledge to share.
+              We organise talks with interesting people.
             </p>
           </div>
           <div class="col-sm-3 col-xs-12" data-sr="enter right, move 30px, over 1s">
-            <h3>Showcase your work</h3>
+            <%= image_tag "showcase_red.png", width: "100", class: "png-items-padding-bottom" %>
+            <h2 class="white-font">Showcase your work</h2>
             <p>
-              On thursdays we encourage participants to show they work so they can get feedbacks, encouragments and practise public speaking.
+              On Thursdays we encourage participants to show their work so they can get feedbacks, encouragments and practice public speaking.
             </p>
           </div>
         </div>
@@ -150,50 +208,177 @@
   </div>
 </div>
 
-<div class="whatwedo-container window-full-sized paragraph">
+<div class="whatwedo-container paragraph bg-green">
   <div class="container">
     <div class="row">
-      <div class"col-xs-12">
-        <div class="howwedo-content text-center">
-          <h2>A typical day at The Sublimes House</h2>
-          <p>7am - Yoga, jogging, reading...
-          <br>8am - Breakfast
-          <br>9:30am - Start morning work session
-          <br>12:30am - Cook lunch or lunch at a restaurant nearby
-          <br>2pm - Work afternoon session
-          <br>6pm - Talk from the participants
-          <br>7pm - dinner and hanging out with the group
-          <br>8pm - games, movies, or nightlife
-          </p>
+      <div class="whatwedo-content text-left white-font paragraph">
+        <div class="col-sm-10 col-xs-12  ">
+          <h1>Speak the language of tech with <br><strong>Coding and web design</strong> weekly introduction courses</h1>
+          <ul>
+            <p>
+              <li>Understand the principles of coding.</li>
+              <li>Get the basics in ux / ui design.</li>
+              <li>Get the global skills to understand the technical questions
+              that will help you relate to your tech teams.</li>
+            </p>
+          </ul>
+        </div>
+        <div class="image col-sm-2 col-xs-12" data-sr="enter right, move 30px, over 1s">
+          <%= image_tag "coding.png", width: "300", class: "" %>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="howwedo-container window-full-sized paragraph">
+<div class="whatwedo-container paragraph grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class"col-xs-12 text-center">
+        <h1 class="text-center">A typical day at The Sublimes House</h1>
+        <div class="howwedo-content text-left">
+          <ul>
+            <li>7:30am - Yoga, jogging, reading...</li>
+            <li>8:30am - Breakfast</li>
+            <li>9am - Start morning work session</li>
+            <li>12:30am - Cook lunch or lunch at a restaurant nearby</li>
+            <li>2pm - Work afternoon session</li>
+            <li>6pm - Talk from the participants</li>
+            <li>7pm - Dinner and hanging out with the group</li>
+            <li>8pm - Games, movies, or nightlife</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="whatwedo-container grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class="grey-line">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="whatwedo-container paragraph grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class"col-sm-12">
+        <div class="whatwedo-content text-center paragraph-title">
+          <h1>Co-living Co-working Co-boosting</h1>
+          <div class="col-xs-12 " data-sr="enter bottom, move 60px, over 0.8s">
+            <div class="col-sm-4">
+              <h2>Stimulating</h2>
+              <p>
+                We look for friendly, self-directed and curious people who enjoy working and want to get better at what they do.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <h2>Be thoughtful</h2>
+              <p>
+                The atmosphere here is friendly and intellectual.
+                We have social rules. We like profound respect for each individual as a person and learner. We like asking questions in an environment that is not just productive but also supportive, friendly, and positive.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <h2>Get Focus</h2>
+              <p>
+                It's rare to have such a large, uninterrupted chunk of time to focus on just one thing. Even at work, most of us have multiple responsibilities and priorities to juggle with. Here is a good place to start a project, and test it with the community.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="whatwedo-container grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class="grey-line">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="whatwedo-container paragraph grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class"col-xs-12 whatwedo-content text-center paragraph-title">
+        <h1 class="text-center">We Boost your productivity</h1>
+        <h2 class="text-center" >We encourage to practice a good formula for work management</h2>
+        <div class="howwedo-content text-left">
+          <ul>
+            <li>Eating healthy</li>
+            <li>Yoga, meditation, because it reduces stress</li>
+            <li>Timely breaks during the day, we like the 52-17 method</li>
+            <li>We encourage napping session</li>
+            <li>A to-do-list prepared the night before</li>
+            <li>Focus on things that build your project</li>
+            <li>Start with the hardest thing first or the most valuable</li>
+            <li>Daily pairing coaching</li>
+            <li>Finish work early</li>
+            <li>Playtime, relax with your mates</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="whatwedo-container grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class="grey-line">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="whatwedo-container paragraph grey-bg">
   <div class="container">
     <div class="row">
       <div class"col-xs-12">
         <div class="whatwedo-content text-center paragraph-title">
-          <h2>Co-living Co-working Co-boosting</h2>
-          <div class="col-sm-4 col-xs-12" data-sr="enter left, move 30px, over 1s">
-            <h3>Stimulating</h3>
+          <h1>The Sublimes</h1>
+          <div class="col-sm-6 col-xs-12" data-sr="enter left, move 30px, over 1s">
+            <%= image_tag "http://www.placehold.it/100x100", class: "img-circle" %>
             <p>
-              We look for friendly, self-directed and curious people who enjoy working and want to get better at what they do.
+              <strong>Gwenda</strong>
+              <br>Programmer, C, PHP, HTML, CSS
+              <br>Student at 42
+              <br>Coffee lover
+              <ul class="list-inline">
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              </ul>
             </p>
           </div>
-          <div class="col-sm-4 col-xs-12" data-sr="enter bottom, move 30px, over 1s">
-            <h3>Be thoughtful</h3>
+          <div class="col-sm-6 col-xs-12" data-sr="enter bottom, move 30px, over 1s">
+            <%= image_tag "http://www.placehold.it/100x100", class: "img-circle" %>
             <p>
-              The atmosphere here is friendly and intellectual.
-              We have social rules. We like profound respect for each individual as a person and learner. We like asking questions in an environment that is not just productive but also supportive, friendly, and positive.
-            </p>
-          </div>
-          <div class="col-sm-4 col-xs-12" data-sr="enter right, move 30px, over 1s">
-            <h3>Get Focus</h3>
-            <p>
-              It's rare to have such a large, uninterrupted chunk of time to focus on just one thing. Even at work, most of us have multiple responsibilities and priorities to juggle. Here is a good place to start a project, and test it with the community.
+              <strong>Anna</strong>
+              <br>UX / UI designer & art director
+              <br>Learning Ruby, HTML & CSS
+              <br>Loves disco music in secret
+              <br>
+              <ul class="list-inline">
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              </ul>
             </p>
           </div>
         </div>
@@ -202,36 +387,8 @@
   </div>
 </div>
 
-<div class="prices-container window-full-sized paragraph">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-xs-12 text-center">
-        <h3>Let's be accessible</h3>
-          <p>
-            We're trying to keep the price accessible for everyone.
-            <br>
-            There is shared rooms for those who have a smaller wallet and private rooms for those who needs to keep their privacy.
-          </p>
-      </div>
-      <div class="col-sm-12 col-xs-12 text-center">
-        <h3>One month immersive co-living co-working in the center of Lisbon</h3>
-        <h3>From the 31ST OF JAN to the 27TH OF FEB</h3>
-      </div>
-      <div class="col-sm-12 col-xs-12 text-center">
-        <h4>Price per person per room</h4>
-      </div>
-      <div class="container-form card">
-       <div class="row">
-          <div class="col-xs-12 text-center" id= "price">
-            <div class="btn-group" role="group" aria-label="...">
-              <button type="button" class="btn btn-default">500€<br>TRIPPLE ROOM</button>
-              <button type="button" class="btn btn-default">600€<br>DOUBLE ROOM</button>
-              <button type="button" class="btn btn-default">700€<br>SINGLE ROOM</button>
-            </div>
-          </div>
-       </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+
+
+
 

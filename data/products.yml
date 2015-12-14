@@ -2,3 +2,10 @@
   image: some_product.png
 - name: Other product
   image: other_product.png
+- name: Anna Mimouni
+  job: Freelance designer and Junior Coder
+  decription: I have been working freelance for about 8 years and just started learning Ruby at Le Wagon coding Bootcamp and I am a freshwomen at 42 School. I am ready now to start my entreprenership career.
+- name: Gwenda Frocrain
+  job: Bike cofeedelivery girl and student coder at 42 School.
+  description: I was a projectionist in Berlin and in Paris. I have been learning coding for a year. Enjoy C and PHP and travelling.
+

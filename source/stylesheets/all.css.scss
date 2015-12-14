@@ -48,9 +48,9 @@ a {
 }
 
 .paragraph {
-  padding: 150px 0px 150px 0px;
+  padding: 50px 0px 50px 0px;
   width: 100%;
-  color: yellow;
+  color: white;
   display: flex;
 }
 
@@ -58,6 +58,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.bg-dark{
+  background: $gray-darker;
+  padding: 150px 0px 150px 0px;
+  width: 100%;
+  color: white;
+  display: flex;
 }
 
 // .banner-navbar-container {
@@ -69,8 +76,20 @@ a {
 // }
 
 .main-container {
-  background-image: url('http://www.djsurgeles.com/wp-content/uploads/2013/11/download-wallpaper-free-universe-space-galaxy-univ-23979.jpg');
+  background-image: url('https://static.pexels.com/photos/14676/pexels-photo-14676.png');
 }
+
+.city-container {
+  background-image: url('http://yg7tq1vvkcf2n8oyl2crp7ov.wpengine.netdna-cdn.com/wp-content/uploads/sites/3/2015/10/sea-city-landscape-sky.jpg');
+}
+.sky-container {
+  background-image: url('https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg');
+  padding: 150px 0px 150px 0px;
+  width: 100%;
+  color: black;
+  display: flex;
+}
+
 
 .back-to-top-link {
   background-color: yellow;
@@ -100,3 +119,5 @@ a {
   width: 12px;
   display: inline-block;
 }
+
+

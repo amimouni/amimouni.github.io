@@ -1,9 +1,15 @@
 <nav class="navbar-sublimes">
   <div class="container navbar-sublimes-container">
+    <div class="">
 
-    <% link_to "/" do %>
-      <%= image_tag "sublimes.png", size: "200", id: "top", class: "navbar-sublimes-logo" %>
-    <% end %>
+
+
+          <% link_to "/" do %>
+            <%= image_tag "logo_red.png", id: "top", class: "navbar-sublimes-logo"%>
+            <span>THE SUBLIMES HOUSE</span>
+          <% end %>
+
+    </div>
 
 <!--     <div class="navbar-sublimes-menu navbar-sublimes-menu-link">
       <%= link_to "TEAM", "/team.html", class: "navbar-sublimes-link" %>
@@ -15,14 +21,15 @@
     </div>
  -->
     <div class="navbar-sublimes-menu">
-      <div class="navbar-sublimes-link team-link">
-        <%= link_to "TEAM", "/team.html" %>
+      <div class="navbar-sublimes-link">
+        <%= link_to "ABOUT", "/about.html"%>
       </div>
-
-      <div class="navbar-sublimes-link getinvolved-link">
+      <div class="navbar-sublimes-link">
+        <%= link_to "TEAM", "/team.html"%>
+      </div>
+      <div class="navbar-sublimes-link">
         <%= link_to "GET INVOLVED", "/getinvolved.html"%>
       </div>
     </div>
-
   </div>
 </nav>
