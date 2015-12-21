@@ -28,8 +28,57 @@
   width: 100%;
 }
 
+.field-container {
+  margin: 0px 0px 20px 0px;
+}
+
 .name .field {
   width: 48%;
   float: left;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: 100;
+}
+
+.modal .field-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+label {
+  font-weight: 100;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+label p {
+  margin: 10px 0 0 0;
+}
+
+.btn-submit {
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-style: normal;
+  margin: 1em 0 .8em;
+  text-rendering: optimizeLegibility;
+  background-color: $gray;
+  color: $gray-lighter;
+  border-radius: 86px;
+  padding: 18px 34px;
+  border-width: 2px;
+  border: 3px solid $gray-lighter;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  outline: none;
+  &:hover {
+    color: white;
+    border-color: $red;
+    background-color: $red;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  &:visited {
+  text-decoration: none;
+  }
 }
