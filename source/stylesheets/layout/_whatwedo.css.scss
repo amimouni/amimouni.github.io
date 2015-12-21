@@ -2,6 +2,7 @@
   .white-font {
     h1 {
       color: white;
+      text-shadow: 0px 2px 2px #5A5A5A;
     }
 
      p {
@@ -11,10 +12,12 @@
       color: white;
     }
 
-     h2 {
+    h2 {
       color: white;
     }
-
+    h3 {
+      color: white;
+    }
     br {
       color: white;
     }
@@ -29,9 +32,9 @@
   h1 {
 
     font-family: 'proxima-nova', sans-serif;
-    font-size: 32px;
+    font-size: 34px;
     line-height: 1.2em;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
     font-style: normal;
@@ -45,9 +48,9 @@
     margin-bottom: 20px;
     color: #595A57;
     font-family: 'proxima-nova', sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.2em;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
     font-style: normal;
@@ -144,3 +147,34 @@ padding-bottom: 5%;
   background-color: none !important;
   border: 2px solid $red;
 }
+
+.price-content-button {
+  color: white;
+  font-family: 'proxima-nova', sans-serif;
+  color: white;
+  border-color: $red;
+  background-color: $red;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-style: normal;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  margin: 1em 0 .8em;
+  text-rendering: optimizeLegibility;
+  background-color: none;
+
+  border-radius: 86px;
+  line-height: 74px;
+  padding: 18px 34px;
+  border: 2px solid white;
+  &:hover {
+    color: black;
+    border-color: $red;
+    background-color: $red;
+    text-decoration: none;
+    text-shadow: none;
+  }
+}
+
