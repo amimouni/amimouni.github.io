@@ -1,0 +1,35 @@
+.modal-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  //opacity: 0.6;
+  //padding: 100px;
+  display: flex;
+}
+
+.modal-inner {
+  max-width: 600px;
+  margin: auto;
+  flex: 1;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.form-inline .form-control {
+  display: block;
+  width: 100%;
+}
+
+.name .field {
+  width: 48%;
+  float: left;
+  font-size: 12px;
+}
