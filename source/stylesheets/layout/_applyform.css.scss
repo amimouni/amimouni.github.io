@@ -57,9 +57,28 @@ label p {
 
 .btn-submit {
   margin-top: 20px;
-    color: black;
-    border-color: #CE182D;
-    background-color: #CE182D;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-style: normal;
+  margin: 1em 0 .8em;
+  text-rendering: optimizeLegibility;
+  background-color: $gray;
+  color: $gray-lighter;
+  border-radius: 86px;
+  padding: 18px 34px;
+  border-width: 2px;
+  border: 3px solid $gray-lighter;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  outline: none;
+  &:hover {
+    color: white;
+    border-color: $red;
+    background-color: $red;
     text-decoration: none;
     text-shadow: none;
+  }
+  &:visited {
+  text-decoration: none;
+  }
 }
