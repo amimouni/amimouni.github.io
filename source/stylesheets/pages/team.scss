@@ -29,4 +29,16 @@
   p {
     color: $gray-light;
   }
+  .pic-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .pic {
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+  }
 }

@@ -118,7 +118,42 @@ a {
   -webkit-transform: rotate(45deg);
   height: 12px;
   width: 12px;
-  display: inline-block;
-}
+  position: absolute;
+  margin-left: -5px;}
+
+.red-button {
+    font-family: 'proxima-nova', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 .8em;
+    text-rendering: optimizeLegibility;
+    background-color: $gray-lighter;
+    color: #ce0a0f;
+    border-radius: 86px;
+    padding: 18px 34px;
+    border-width: 2px;
+    border: 3px solid #ce0a0f;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    outline: none;
+    &:hover {
+      color: white;
+      border-color: $red;
+      background-color: $red;
+      text-decoration: none;
+      text-shadow: none;
+    }
+    &:visited {
+    text-decoration: none;
+    }
+
+  }
+
+
+
+
+
+
 
 
