@@ -146,8 +146,17 @@ padding-bottom: 5%;
 .price a:visited {
   color: $red;
 }
+.price a:link {
+  color: $red;
+}
+.price a:active {
+  color: $red;
+}
+.price a:hover {
+  color: white;
+}
 .price a:visited:hover {
-    color: white;
+  color: white;
 }
 
 .button-paddingtop {
