@@ -86,35 +86,6 @@
   font-style: normal;
   color: rgba(26,26,26,.7)
   }
-  &-button {
-
-    font-family: 'proxima-nova', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 600;
-    font-style: normal;
-    margin: 1em 0 .8em;
-    text-rendering: optimizeLegibility;
-    background-color: none;
-    coler: #ce0a0f;
-    border-radius: 86px;
-    line-height: 74px;
-    padding: 18px 34px;
-    border-width: 2px;
-    border: 3px solid #ce0a0f;
-    transition: 0.1s background-color linear, 0.1s color linear;
-    &:hover {
-      color: white;
-      border-color: $red;
-      background-color: $red;
-      text-decoration: none;
-      text-shadow: none;
-    }
-    &:visited {
-    text-decoration: none;
-    }
-
-  }
 
   & .date-apply-padding-down a:visited {
     color: $red;

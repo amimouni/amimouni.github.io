@@ -26,7 +26,7 @@
             <br>
 
             <div class="price price-padding fade-and-slide button-paddingtop">
-              <%= button_tag "APPLY NOW",data: { toggle: "modal", target: "#myModal"}, id:"apply", class: "whatwedo-container-button" %>
+              <%= button_tag "APPLY NOW",data: { toggle: "modal", target: "#myModal"}, id:"apply", class: "red-button" %>
 <!--               <%= link_to "APPLY NOW", "#apply", class: "whatwedo-container-button" %> -->
             </div>
 <!--             <p>Leave us your mail and get more info to join us!</p>
@@ -65,44 +65,44 @@
 
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h5 class="modal-title" id="myModalLabel">Immerse yourself in an inspiring & friendly environment <br>for a mounth changing life experience !</h5>
       </div>
 
       <div class="modal-body">
         <form action="//thesublimes.us12.list-manage.com/subscribe/post?u=0ce30d996a3f1a97cdff4652f&amp;id=5163c7006d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
 
-            <fieldset class="name required">
-              <div class="title required">Name</div>
+            <fieldset class="name field-container required">
+              <div class="field-title required">Name</div>
               <div class="field first-name">
-                <label class="caption"><input name="FNAME"  id="mce-FNAME" x-autocompletetype="given-name" type="text" spellcheck="false" maxlength="30" data-title="First" class="form-control" required>
-                First Name</label>
+                <label class="caption">
+                  <input name="FNAME"  id="mce-FNAME" x-autocompletetype="given-name" type="text" spellcheck="false" maxlength="30" data-title="First" class="form-control" required>
+                  <p>First Name</p>
+                </label>
               </div>
-              <div class="field last-name">
-                <label class="caption"><input name="LNAME"  id="mce-LNAME" x-autocompletetype="surname" type="text" spellcheck="false" maxlength="30" data-title="Last" class="form-control">
-                Last Name</label>
+              <div class="field last-name pull-right">
+                <label class="caption">
+                  <input name="LNAME"  id="mce-LNAME" x-autocompletetype="surname" type="text" spellcheck="false" maxlength="30" data-title="Last" class="form-control">
+                  <p>Last Name</p>
+                </label>
               </div>
             </fieldset>
-            <br>
-            <div class="email required ">
-              <label class="title required">Email</label>
+            <div class="email field-container required">
+              <label class="field-title required">Email</label>
               <input name="EMAIL" id="mce-EMAIL" x-autocompletetype="email" type="email" spellcheck="false" class="form-control" required>
             </div>
-            <br>
-            <div  class="about-you">
-              <label class="title required">Tell us a little bit about yourself</label>
+            <div  class="about-you field-container">
+              <label class="field-title required">Tell us a little bit about yourself</label>
               <input type="text" value="" name="FNAME"  id="mce-FNAME" placeholder="" class="form-control">
             </div>
-            <br>
-            <div  class="about-project">
-              <label class="title required">Tell us about your project for the month</label>
+            <div  class="about-project field-container">
+              <label class="field-title required">Tell us about your project for the month</label>
               <input type="text" value="" name="FNAME"  id="mce-FNAME" placeholder="" class="form-control">
-              <br>
             </div>
 
 
               <!-- do not remove this or risk form bot signups -->
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0ce30d996a3f1a97cdff4652f_00b91c6bae" tabindex="-1" value=""></div>
-              <input type="submit" value="Bim!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-bordered btn-bordered-primary">
+              <input type="submit" value="Bim!" name="subscribe" id="mc-embedded-subscribe" class="red-button btn-submit pull-right">
             </form>
       </div>
 
