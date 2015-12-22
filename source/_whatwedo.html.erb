@@ -41,7 +41,7 @@
         </div>
         <div class="col-xs-12 col-sm-4" data-sr="enter right, move 30px, over 1s">
           <div class="features">
-            <%= image_tag "community_red.png", width: "100", class: "png-items-padding-bottom" %>
+            <%= image_tag "community_red_outline.png", width: "100", class: "png-items-padding-bottom" %>
             <h2>Community
             </h2>
             <p>
@@ -81,7 +81,7 @@
   </div>
 </div>
 
-<div class="whatwedo-container grey-bg-darker ">
+<div class="whatwedo-container grey-bg-darker">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-xs-12 text-center">
@@ -93,11 +93,10 @@
           <%= image_tag "logo-gef.png", width: "100", class: "png-items-padding-bottom" %>
         </div>
 <!--         <h3 class="price-content-button price price-padding fade-and-slide ">Become a partner</h3>
- -->        <div class="price price-padding fade-and-slide button-paddingtop">
-              <%= button_tag "Become a partner",data: { toggle: "modal", target: "#"}, id:"", class: "red-button" %>
-            </div>
-      </div>
-
+ -->
+        <div class="price price-padding fade-and-slide button-paddingtop">
+          <%= button_tag "Become a partner",data: { toggle: "modal", target: "#"}, id:"", class: "red-button" %>
+        </div>
       </div>
     </div>
   </div>
@@ -261,28 +260,38 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class"title col-sm-12">
-        <div class=" " data-sr="enter bottom, move 60px, over 0.8s">
-          <div class="col-sm-6 col-xs-12 text-center">
-            <%= image_tag "remotework_red.png", width: "100", class: "png-items-padding-bottom" %>
-            <h2>Stimulating</h2>
-            <p>
-              We look for friendly, self-directed and curious people who enjoy working and want to get better at what they do.
-            </p>
-          </div>
-          <div class="col-sm-6 col-xs-12 text-center">
-            <%= image_tag "remotework_red.png", width: "100", class: "png-items-padding-bottom" %>
-            <h2>Be thoughtful</h2>
-            <p>
-              The atmosphere here is friendly and intellectual.
-              We have social rules. We like profound respect for each individual as a person and learner. We like asking questions in an environment that is not just productive but also supportive, friendly, and positive.
-            </p>
-          </div>
+      <div class="title col-sm-12" data-sr="enter bottom, move 60px, over 0.8s">
+        <div class="col-sm-4 col-xs-12 text-center">
+          <%= image_tag "stimulating.png", width: "100", class: "png-items-padding-bottom" %>
+          <h2>Stimulating</h2>
+          <p>
+            We look for friendly, self-directed and curious people who enjoy working and want to get better at what they do.
+          </p>
+        </div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <%= image_tag "thoughtful.png", width: "100", class: "png-items-padding-bottom" %>
+          <h2>Thoughtful</h2>
+          <p>
+            The atmosphere here is friendly and intellectual.
+            We have social rules. We like profound respect for each individual as a person and learner. We like asking questions in an environment that is not just productive but also supportive, friendly, and positive.
+          </p>
+        </div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <%= image_tag "empowering_women.png", width: "100", class: "png-items-padding-bottom" %>
+          <h2>Empowering women</h2>
+          <p>
+            We know they are local obstacles women see to success in tech.
+            We encourage women to be deliberate and purposeful in planning their careers.
+            We try to open women’s eyes to leadership possibilities.
+            We create and expand women’s networks.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
 
 <div class="whatwedo-container paragraph bg-green">
   <div class="container">
