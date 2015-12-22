@@ -1,91 +1,74 @@
 .banner {
+
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  text-shadow: 0px 2px 2px #5A5A5A;
 
-.banner-content {
-  flex: 1;
-  // align-items: center;
-  // align-content: center;
-  margin: 0px;
-  align-items: center;
-  p {
-    font-family: 'proxima-nova', sans-serif;
-    font-size: 68px;
-    line-height: 1em;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff;
-    letter-spacing: 0.0588235em;
-    padding-top: 20%;
-    margin: 0px;
-    text-shadow: 0px 2px 2px #5A5A5A;
-  }
   h1 {
-    font-family: 'proxima-nova', sans-serif;
     font-size: 32px;
     line-height: 1.2em;
-    // text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 200;
-    font-style: normal;
-    text-shadow: 0px 2px 2px #5A5A5A;
     margin: 1em 0 .5em;
     text-rendering: optimizeLegibility;
-
   }
-  &-button {
-
-    font-family: 'proxima-nova', sans-serif;
-    color: white;
-    background-color: transparent;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-weight: 300;
-    font-style: normal;
-    transition: 0.1s background-color linear, 0.1s color linear;
-    margin: 1em 0 .8em;
-    text-rendering: optimizeLegibility;
-    background-color: none;
-
-    border-radius: 86px;
-    line-height: 74px;
-    padding: 18px 34px;
-    border: 2px solid white;
-    &:hover {
-      color: black;
-      border-color: $red;
-      background-color: $red;
-      text-decoration: none;
-      text-shadow: none;
-    }
-  }
-}
-
-.banner-container {
   h2 {
-    font-family: 'proxima-nova', sans-serif;
     font-size: 18px;
     line-height: 1.2em;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 300;
-    font-style: normal;
-    text-shadow: 0px 2px 2px #5A5A5A;
     margin: 1em 0 .8em;
     text-rendering: optimizeLegibility;
+  }
+  p {
+    font-size: 68px;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.0588235em;
+    padding-top: 20%;
+    margin: 0px;
+  }
+
+  .banner-content {
+    flex: 1;
+    margin: 0px;
+    align-items: center;
+    color: #fff;
+    &-button {
+      color: white;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-weight: 300;
+      font-style: normal;
+      transition: 0.1s background-color linear, 0.1s color linear;
+      margin: 1em 0 .8em;
+      text-rendering: optimizeLegibility;
+      background-color: none;
+      border-radius: 86px;
+      line-height: 74px;
+      padding: 18px 34px;
+      border: 2px solid white;
+      &:hover {
+        color: black;
+        border-color: $red;
+        background-color: $red;
+        text-decoration: none;
+        text-shadow: none;
+      }
+    }
   }
 
   .date-apply-padding-down {
     padding-top: 120px;
     flex: 1;
   }
-
 }
-
 
 

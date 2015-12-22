@@ -1,11 +1,15 @@
 #footer {
   background: $gray-darker;
-  padding: 30px 0;
+  padding: 0 0 30px 0;
   color: $gray-lighter;
+  h2 {
+    color: $gray-lighter;
+  }
   p {
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: lighter;
+    color: $gray-light;
   }
   ul {
     margin-top: 10px;
@@ -16,7 +20,91 @@
     // letter-spacing: 20px;
     transition: color 0.5s ease;
     &:hover{
-      color: $gray-dark;
+      color: $red;
     }
+  }
+
+  .paragraph {
+    margin-top: -25px;
+    padding-top: 0px;
+    .container {
+      padding: 0px 0px 20px 0px;
+    }
+  }
+
+  .back-to-top-link {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 8px;
+  }
+
+  .back-to-top-link p {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 18px;
+  }
+
+  .arrow-to-top {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 4px;
+  }
+
+  form {
+    display: inline-flex;
+  }
+  .form-control {
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .btn-submit {
+    margin: 0px 0px 0px 10px;
+    border: none;
+    height: 43px;
+    padding: 0 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    &:hover {
+      border-color: $red;
+    }
+  }
+
+  .link-list li {
+    margin: 0px 10px 0px 10px;
+  }
+  .fa {
+    font-size: 22px;
+    border: solid 1px $gray-lighter;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-top: 18px;
+    color: $gray-lighter;
+    transition: all 0.5s ease;
+    &:hover {
+      color: $gray-light;
+      background-color: #1F1F1F;
+      border-color: $gray-light;
+    }
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: $gray-light;
   }
 }
