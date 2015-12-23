@@ -77,14 +77,29 @@
   }
 
   .btn-submit {
+    font-family: 'proxima-nova', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 0 .8em;
+    text-rendering: optimizeLegibility;
+    background-color: $red;
+    color: white;
+    border-radius: 86px;
+    padding: 14px 34px;
+    // border-width: 2px;
+    // border: 3px solid #CE182D;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    outline: none;
     margin: 0px 0px 0px 10px;
     border: none;
     height: 43px;
-    padding: 0 40px;
+    // padding: 0 40px;
     border-radius: 2px;
     font-size: 16px;
     &:hover {
-      border-color: $red;
+      background-color: $red-darker;
     }
   }
 
