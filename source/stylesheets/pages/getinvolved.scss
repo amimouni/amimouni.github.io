@@ -1,7 +1,7 @@
 .getinvolved {
   .navbar-sublimes-container{
     // position: relative;
-    background-color: $red;
+    // background-color: $red;
   }
   h1 {
     margin: 0px;
@@ -31,6 +31,19 @@
     color: $gray-light;
   }
   .get-involved-banner {
-        background-image: url("../../documents/galaxy-easter-eggs.jpg");
+    background-image: url("http://www.dreamalittlebigger.com/wp-content/uploads/2015/03/003-galaxy-easter-eggs-dreamalittlebigger.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+  }
+  .get-involved-banner p {
+    font-size: 68px;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.0588235em;
+    padding-top: 8%;
+    margin: 0px;
+    color: white;
   }
 }
