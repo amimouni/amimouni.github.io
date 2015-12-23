@@ -109,10 +109,10 @@ a {
   font-style: normal;
   margin: 1em 0 .8em;
   text-rendering: optimizeLegibility;
-  background-color: $gray-lighter;
+  background-color: initial;
   color: $red;
   border-radius: 86px;
-  padding: 18px 34px;
+  padding: 14px 34px;
   border-width: 2px;
   border: 3px solid $red;
   transition: 0.1s background-color linear, 0.1s color linear;
