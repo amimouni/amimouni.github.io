@@ -60,6 +60,8 @@ label p {
 }
 
 .btn-submit {
+  height: 48px;
+  width: 248px;
   margin-top: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -68,13 +70,13 @@ label p {
   font-style: normal;
   margin: 1em 0 .8em;
   text-rendering: optimizeLegibility;
-  background-color: $gray;
+  background-color: $red;
   color: $gray-lighter;
-  border-radius: 5px;
-  padding: 14px 38px;
+  border-radius: 2px;
+  // padding: 14px 38px;
   border-width: 2px;
   border: 3px solid $gray-lighter;
-  transition: 0.1s background-color linear, 0.1s color linear;
+  transition: 0.1s all ease;
   outline: none;
   &:hover {
     color: white;
@@ -86,4 +88,8 @@ label p {
   &:visited {
   text-decoration: none;
   }
+}
+
+.modal-header .close {
+  outline: none;
 }

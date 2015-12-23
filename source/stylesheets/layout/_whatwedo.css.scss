@@ -44,7 +44,7 @@
     // text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
-
+    min-height: 2.5em;
   }
   h3 {
     margin: 0px;
@@ -91,6 +91,10 @@
 
 .red-title {
   color: $red;
+}
+
+.subtitle {
+  display: flex;
 }
 
 .price-padding {

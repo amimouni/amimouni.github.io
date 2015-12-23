@@ -1,6 +1,7 @@
 .getinvolved {
   .navbar-sublimes-container{
-    position: relative;
+    // position: relative;
+    background-color: $red;
   }
   h1 {
     margin: 0px;
@@ -20,13 +21,16 @@
     color: black;
   }
   .navbar-sublimes .getinvolved-link a {
-    color: $yellow;
+    color: $red;
   }
   .navbar-sublimes a:hover {
-    color: $yellow;
+    color: $red;
     text-decoration: none;
   }
   p {
     color: $gray-light;
+  }
+  .get-involved-banner {
+        background-image: url("../../documents/galaxy-easter-eggs.jpg");
   }
 }
