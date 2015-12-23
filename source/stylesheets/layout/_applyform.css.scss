@@ -95,8 +95,45 @@ label p {
 }
 
 .container-pricing {
-  background: #5FC6CF;
-  margin-bottom: 6px;
-  padding: 3px 0;
+  background: $green;
+  margin-bottom: 20px;
+  padding: 20px 0px 20px 0px;
+}
+.container-pricing span {
+  // text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0;
+  color: white;
+}
+.pricing span {
+  marging: 0;
+  color: #595A57;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.pricing p {
+  margin: 14px 0px 14px 0px;
+}
+
+
+.grey-outline-up {
+  // background-color: #f5f5f5;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 1em;
+  // box-shadow: 0px 1px 2px #DEDEDE;
+}
+.grey-outline-all {
+  // background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 1em;
+  // box-shadow: 0px 1px 2px #DEDEDE;
 }
 

@@ -1,19 +1,22 @@
-<div class="whatwedo-container paragraph grey-bg-darker">
+<div class="whatwedo-container paragraph grey-bg text-center">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-xs-12  text-center">
+      <div class="col-sm-12 col-xs-12">
         <h1>Community Partners</h1>
-        <div class="col-sm-6 col-xs-12" data-sr="enter left, move 30px, over 1s">
-          <%= image_tag "creative_valley_logo.svg", width: "100", class: "png-items-padding-bottom" %>
-        </div>
-        <div class="col-sm-6 col-xs-12" data-sr="enter left, move 30px, over 1s">
-          <%= image_tag "logo-gef.png", width: "100", class: "png-items-padding-bottom" %>
+        <div class="partner-icons">
+          <div class="col-sm-6 col-xs-12" data-sr="enter left, move 30px, over 1s">
+            <%= image_tag "creative_valley_logo.svg", width: "100", class: "png-items-padding-bottom" %>
+          </div>
+          <div class="col-sm-6 col-xs-12" data-sr="enter left, move 30px, over 1s">
+            <%= image_tag "logo-gef.png", width: "100", class: "png-items-padding-bottom" %>
+          </div>
         </div>
         <!-- <h3 class="price-content-button price price-padding fade-and-slide ">Become a partner</h3> -->
 
         <div class="price price-padding fade-and-slide button-paddingtop">
           <%= button_tag "Become a partner",data: { toggle: "modal", target: "#"}, id:"", class: "red-button" %>
         </div>
+
       </div>
     </div>
   </div>
