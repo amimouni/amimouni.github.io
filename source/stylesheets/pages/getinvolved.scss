@@ -1,7 +1,8 @@
 .getinvolved {
   .navbar-sublimes-container{
-    // position: relative;
-    // background-color: $red;
+    position: relative;
+    border-bottom: 1px solid #E2E2E2;
+    box-shadow: 0px 0px 2px #D4D4D4;
   }
   h1 {
     margin: 0px;
@@ -17,18 +18,22 @@
   h3 {
     margin: 0px;
   }
-  .navbar-sublimes a {
-    color: black;
+  p {
+    color: $gray-light;
   }
-  .navbar-sublimes .getinvolved-link a {
-    color: $red;
+  .sublimes-logo a {
+    color: $gray-darker;
   }
-  .navbar-sublimes a:hover {
+  .navbar-sublimes-link a {
+    color: #9E9E9E;
+  }
+  .navbar-sublimes-link a:hover,
+  .sublimes-logo a:hover {
     color: $red;
     text-decoration: none;
   }
-  p {
-    color: $gray-light;
+  .navbar-sublimes .getinvolved-link a {
+    color: $gray-darker;
   }
   .get-involved-banner {
     background-image: url("http://www.dreamalittlebigger.com/wp-content/uploads/2015/03/003-galaxy-easter-eggs-dreamalittlebigger.jpg");
@@ -46,4 +51,11 @@
     margin: 0px;
     color: white;
   }
+
+  .mail-link {
+    height: 57px;
+    padding-top: 15px;
+    margin-top: 40px;
+  }
+
 }
