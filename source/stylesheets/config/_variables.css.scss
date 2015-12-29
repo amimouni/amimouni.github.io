@@ -9,10 +9,35 @@ $header-font: "Helvetica", "sans-serif";
 // Local fonts (uncomment following lines)
 @font-face {
   font-family: "proximanova";
-  src: font-url('proximanova.eot');
-  src: font-url('proximanova.eot?#iefix') format('embedded-opentype'),
-       font-url('proximanova.woff') format('woff'),
-       font-url('proximanova.ttf') format('truetype')
+  src: font-url('../fonts/proximanova-regular-webfont.eot');
+  src: font-url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+       font-url('../fonts/proximanova-regular-webfont.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "proximanova";
+  src: font-url('../fonts/proximanova-bold-webfont.eot');
+  src: font-url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+       font-url('../fonts/proximanova-bold-webfont.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "proximanova";
+  src: font-url('../fonts/proximanova-semibold-webfont.eot');
+  src: font-url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
+       font-url('../fonts/proximanova-semibold-webfont.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "proximanova";
+  src: font-url('../fonts/proximanova-light-webfont.eot');
+  src: font-url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+       font-url('../fonts/proximanova-light-webfont.woff') format('woff'),
+       font-url('../fonts/proximanova-light-webfont.ttf') format('truetype');
+  font-weight: 400;
 }
 $my-font: "proximanova";
 
