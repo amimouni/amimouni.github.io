@@ -2,7 +2,12 @@
   <div class="container navbar-sublimes-container">
     <div class="sublimes-logo">
           <% link_to "/" do %>
-            <%= image_tag "sublimehouse_logo_white.png", width: "800", id: "top", class: "navbar-sublimes-logo"%>
+
+            <% if current_page.url == ('/') %>
+              <%= image_tag "sublimehouse_logo_white.png", width: "800", id: "top", class: "navbar-sublimes-logo"%>
+            <% else %>
+              <%= image_tag "sublimehouse_logo_black.png", width: "800", id: "top", class: "navbar-sublimes-logo"%>
+            <% end %>
           <% end %>
     </div>
 
