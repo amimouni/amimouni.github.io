@@ -14,7 +14,7 @@
 @import "vendor/*";
 
 html {
-  font-family: 'proxima-nova', sans-serif;
+  font-family: $my-font, sans-serif;
   font-style: normal;
 }
 
@@ -141,7 +141,7 @@ a {
 }
 
 .red-button {
-  font-family: 'proxima-nova', sans-serif;
+  font-family: $my-font, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 600;
@@ -169,7 +169,7 @@ a {
 }
 
 .apply-partnership-button {
-  font-family: 'proxima-nova', sans-serif;
+  font-family: $my-font, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 600;
