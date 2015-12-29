@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'proxima-nova', sans-serif;
+  font-family: $my-font, sans-serif;
   font-style: normal;
   text-shadow: 0px 2px 2px #5A5A5A;
   h1 {
+    font-family: $my-font, sans-serif;
     font-size: 32px;
     line-height: 1.2em;
     letter-spacing: 2px;
@@ -15,6 +16,7 @@
     text-rendering: optimizeLegibility;
   }
   h2 {
+    font-family: $my-font, sans-serif;
     font-size: 18px;
     line-height: 1.2em;
     text-transform: uppercase;
@@ -25,6 +27,7 @@
     text-rendering: optimizeLegibility;
   }
   p {
+    font-family: $my-font, sans-serif;
     font-size: 68px;
     line-height: 1em;
     text-transform: uppercase;

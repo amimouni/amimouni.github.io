@@ -3,18 +3,18 @@
  * ------------------------------------- */
 // Google fonts
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-$base-font: "proxima-nova", "Helvetica", "sans-serif";
-$header-font: "proxima-nova", "Helvetica", "sans-serif";
+$base-font: "Helvetica", "sans-serif";
+$header-font: "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "proximanova";
+  src: font-url('proximanova.eot');
+  src: font-url('proximanova.eot?#iefix') format('embedded-opentype'),
+       font-url('proximanova.woff') format('woff'),
+       font-url('proximanova.ttf') format('truetype')
+}
+$my-font: "proximanova";
 
 // Font-size and line-height
 $base-size: 20px;
