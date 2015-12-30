@@ -23,3 +23,7 @@ gem 'font-awesome-sass', '~> 4.2.0'
 
 # CSS performance
 gem 'middleman-autoprefixer'
+
+gem 'rails_12factor', group: :production
+gem 'puma',           group: :production
+
