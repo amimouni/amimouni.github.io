@@ -27,3 +27,4 @@ gem 'middleman-autoprefixer'
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
 
+ruby '2.2.3'
