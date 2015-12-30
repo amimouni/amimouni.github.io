@@ -72,11 +72,18 @@
   .profil {
     margin: 10px 0px 10px 0px;
   }
+  .profil p {
+    margin: 14px 0px 14px 0px;
+  }
   .profil span {
     font-weight: 600;
+    color: $gray-dark;
   }
   .social-link .fa {
-    color: $gray-darker;
+    color: $gray-dark;
+  }
+  .social-link .fa:hover {
+    color: $red;
   }
 }
 
