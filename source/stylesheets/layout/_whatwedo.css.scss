@@ -72,6 +72,9 @@
   .profil {
     margin: 10px 0px 10px 0px;
   }
+  .profil span {
+    font-weight: 600;
+  }
   .social-link .fa {
     color: $gray-darker;
   }
@@ -90,6 +93,7 @@
   h1, h2, h3, p, ul, li {
     color: white;
   }
+
 }
 
 

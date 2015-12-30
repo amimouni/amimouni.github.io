@@ -13,9 +13,13 @@
 @import "pages/*";
 @import "vendor/*";
 
-html {
+html, body, h1, h2, h3, p, ul, li {
   font-family: $my-font, sans-serif;
   font-style: normal;
+}
+
+strong {
+  font-weight: 700;
 }
 
 h1 {
@@ -23,7 +27,7 @@ h1 {
   font-size: 34px;
   line-height: 1.2em;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 500;
   color: #595A57;
 }
 
@@ -36,7 +40,7 @@ h2 {
   line-height: 1.2em;
   // text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 500;
   min-height: 2.5em;
 }
 
@@ -115,20 +119,13 @@ a {
   }
 }
 
-.about-container {
-  background-image: url('https://static.pexels.com/photos/5056/sky-sunset-night-space.jpeg');
-  h1, h2, h3, p, ul, li {
-    color: white;
-  }
-}
-
 .main-container {
   background-image: url('https://static.pexels.com/photos/14676/pexels-photo-14676.png');
 }
 
 .city-container {
   background-image: url('http://yg7tq1vvkcf2n8oyl2crp7ov.wpengine.netdna-cdn.com/wp-content/uploads/sites/3/2015/10/sea-city-landscape-sky.jpg');
-  background-position-y: -350px;
+  background-position: 0 -350px;
   padding: 0;
   color: white;
 }
@@ -172,7 +169,6 @@ a {
   }
 
 .red-button {
-  font-family: $my-font, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 600;
@@ -203,7 +199,6 @@ a {
 }
 
 .apply-partnership-button {
-  font-family: $my-font, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 600;
