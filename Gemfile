@@ -1,6 +1,8 @@
 # If you do not have OpenSSL installed, update
 # the following line to use "http://" instead
+ruby '2.2.3'
 source 'https://rubygems.org'
+
 
 gem "middleman", "~> 3.3.10"
 
@@ -24,7 +26,5 @@ gem 'font-awesome-sass', '~> 4.2.0'
 # CSS performance
 gem 'middleman-autoprefixer'
 
-gem 'rails_12factor', group: :production
-gem 'puma',           group: :production
 
-ruby '2.2.3'
+
