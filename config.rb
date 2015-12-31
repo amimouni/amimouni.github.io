@@ -53,6 +53,7 @@ end
 #   end
 # end
 
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
@@ -71,6 +72,7 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
+  ignore '/**/less/*.css'
   activate :relative_assets
   set :relative_links, true
 
