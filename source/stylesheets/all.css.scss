@@ -167,12 +167,12 @@ a {
 /** mobile **/
 @media (max-width: 767px) {
   h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
   h2 {
     font-size: 20px;
   }
-  p, .red-button, .banner-content-button {
+  p, li, .red-button, .banner-content-button {
     font-size: 14px;
   }
 }

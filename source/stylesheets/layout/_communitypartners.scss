@@ -6,22 +6,25 @@
   height: 100px;
 }
 
-.price a {
-  padding: 16px 34px;
+.price {
+  a {
+    padding: 16px 34px;
+  }
+  a:visited, a:link, a:active {
+    color: $red;
+  }
+  a:hover, a:visited:hover {
+    color: white;
+  }
 }
-.price a:visited {
-  color: $red;
+
+/********* responsive **********/
+/** mobile **/
+@media (max-width: 767px) {
+  .container-pricing span {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
 }
-.price a:link {
-  color: $red;
-}
-.price a:active {
-  color: $red;
-}
-.price a:hover {
-  color: white;
-}
-.price a:visited:hover {
-  color: white;
-}
+
 

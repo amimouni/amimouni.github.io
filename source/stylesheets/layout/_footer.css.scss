@@ -7,7 +7,7 @@
     color: $gray-lighter;
   }
   p {
-    margin-top: 10px;
+    margin-top: 0.3em;
     font-size: 16px;
     font-weight: lighter;
     color: $gray-light;
@@ -83,6 +83,7 @@
     margin: 0px 0px 0px 10px;
     height: 43px;
     padding-top: 11px;
+    width: 250px;
     &:hover {
       background-color: $red-darker;
     }
@@ -119,11 +120,26 @@
   /********* responsive **********/
   /** mobile **/
   @media (max-width: 767px) {
+    h1 {
+      margin: 20px 0px 0px 0px;
+    }
     form {
       display: inline-block;
+      width: 85%;
+    }
+    ul {
+      margin: 0;
+    }
+    .form-control {
+      font-size: 14px;
+      width: 100%;
     }
     .btn-submit {
-      margin: 0;
+      margin: 10px 0 0 0;
+      width: 100%;
+    }
+    .link-list {
+      margin: 20px 0px 10px 0px;
     }
   }
 
