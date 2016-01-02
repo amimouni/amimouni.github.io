@@ -30,5 +30,7 @@ gem 'puma',           group: :production
 
 gem "middleman-favicon-maker", "~> 3.7"
 
+gem 'middleman-protect-emails'
+
 ruby '2.2.3'
 
