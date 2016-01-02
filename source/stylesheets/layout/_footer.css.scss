@@ -115,4 +115,22 @@
     font-weight: lighter;
     color: $gray-light;
   }
+
+  /********* responsive **********/
+  /** mobile **/
+  @media (max-width: 767px) {
+    form {
+      display: inline-block;
+    }
+    .btn-submit {
+      margin: 0;
+    }
+  }
+
 }
+
+
+
+
+
+

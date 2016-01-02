@@ -1,10 +1,8 @@
 .navbar-sublimes {
-  // box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: none;
   &-logo {
     width: 240px;
     font-size: 10px;
-    // padding-top: 10px;
   }
   &-container {
     display: flex;
@@ -13,6 +11,8 @@
     align-items: center;
     position: absolute;
     z-index: 999;
+    padding-right: 3em;
+    padding-left: 3em;
 
     span {
     font-size: 20px;
@@ -22,19 +22,8 @@
     font-weight: 600;
     font-style: normal;
     line-height: 1em;
-
     }
-
-    padding-right: 3em;
-    padding-left: 3em;
-
   }
-  // &-item {
-  //   flex: 0 1 auto;
-  //   padding: 0 10px;
-  //   font-family: 'proxima-nova', sans-serif;
-  //   color: white;
-  // }
   &-menu {
     flex: 1 1 auto;
     display: flex;
@@ -50,8 +39,6 @@
     line-height: 1em;
   }
   &-link {
-    // color: white;
-    // font-size: 14px;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
@@ -67,53 +54,26 @@
     text-shadow: none;
   }
   & a:active {
-    // color: $blue;
     text-decoration: none;
     text-shadow: none;
   }
-  // }
-  // &-button {
-  //   padding: 0 20px;
-  //   border-radius: 20em;
-  //   line-height: 40px;
-  //   background-color: #D23333;
-  //   color: white;
-  //   font-size: 14px;
-  //   border: 2px solid $brand-color;
-
-  //   &:hover {
-  //     color: white;
-  //     background: $brand-color;
-  //     border-color: darken($brand-color, 10%);
-  //   }
-  // }
-  // &-dropdown-menu {
-  //   margin-top: 15px;
-  //   box-shadow: 1px 1px 4px #E6E6E6;
-  //   border-color: #E6E6E6;
-  //   li > a {
-  //     transition: color 0.3s ease;
-  //     font-weight: lighter !important;
-  //     color: #999999 !important;
-  //     font-size: 15px !important;
-  //     line-height: 22px !important;
-  //     padding: 10px 20px;
-  //     &:hover {
-  //       background: transparent !important;
-  //       color: black !important;
-  //     }
-  //   }
-  //   &:before {
-  //     content: ' ';
-  //     height: 20px;
-  //     width: 20px;
-  //     position: absolute;
-  //     right: 10px;
-  //     top: -10px;
-  //     background-color: white;
-  //     transform: rotate(45deg);
-  //     border-left: 1px solid #E6E6E6;
-  //     border-top: 1px solid #E6E6E6;
-  //   }
-  // }
 }
+
+/********* responsive **********/
+/** mobile **/
+@media (max-width: 767px) {
+  .navbar-sublimes {
+    &-container {
+      padding-right: 4px;
+      padding-left: 4px;
+    }
+    &-logo {
+      width: 180px;
+    }
+    &-link {
+      font-size: 10px;
+      padding: 0 5px 0 5px;
+    }
+  }
+}
+

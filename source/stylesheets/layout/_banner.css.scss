@@ -42,4 +42,35 @@
 
 
 
+.banner-content {
+    flex: 1;
+    margin: 0px;
+    align-items: center;
+    color: #fff;
+    &-button {
+      color: white;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 3px;
+      font-weight: 600;
+      font-style: normal;
+      transition: 0.1s background-color linear, 0.1s color linear;
+      margin: 1em 0 .8em;
+      text-rendering: optimizeLegibility;
+      background-color: none;
+      border-radius: 86px;
+      line-height: 74px;
+      padding: 18px 34px;
+      border: 2px solid white;
+      &:hover {
+        color: white;
+        border-color: $red;
+        background-color: $red;
+        text-decoration: none;
+        text-shadow: none;
+      }
+    }
+  }
+
 

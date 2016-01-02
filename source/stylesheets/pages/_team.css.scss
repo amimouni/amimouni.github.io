@@ -1,48 +1,45 @@
 .team {
-  .navbar-sublimes-container{
-    position: relative;
-    border-bottom: 1px solid #E2E2E2;
-    box-shadow: 0px 0px 2px #D4D4D4;
-  }
   h1 {
-    margin: 0px;
     color: $gray-darker;
   }
-
   h2 {
     color: $gray-dark;
   }
-
   h3 {
     margin: 0px;
   }
   p {
     color: $gray-light;
   }
-  .sublimes-logo a {
-    color: $gray-darker;
+  .paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .navbar-sublimes-link a {
-    color: #9E9E9E;
+
+  .navbar-sublimes {
+    &-container {
+      position: relative;
+      border-bottom: 1px solid #E2E2E2;
+      box-shadow: 0px 0px 2px #D4D4D4;
+    }
+    .sublimes-logo a {
+      color: $gray-darker;
+    }
+    .navbar-sublimes-link a {
+      color: #9E9E9E;
+    }
+    .navbar-sublimes-link a:hover,
+    .sublimes-logo a:hover {
+      color: $red;
+      text-decoration: none;
+    }
+    .team-link a {
+      color: $gray-darker;
+    }
   }
-  .navbar-sublimes-link a:hover,
-  .sublimes-logo a:hover {
-    color: $red;
-    text-decoration: none;
-  }
-  .team-link a {
-    color: $gray-darker;
-  }
-  .pic-circle {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    display: inline-block;
-  }
-  .pic {
-    width: 100px;
-    height: 100%;
-    overflow: hidden;
+
+  &-banner {
+    background-image: url('');
   }
 }

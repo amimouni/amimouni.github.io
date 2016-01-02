@@ -2,24 +2,13 @@
   <div class="container navbar-sublimes-container">
     <div class="sublimes-logo">
           <% link_to "/" do %>
-
             <% if current_page.url == ('/') %>
-              <%= image_tag "sublimehouse_logo_white.png", width: "800", id: "top", class: "navbar-sublimes-logo"%>
+              <%= image_tag "sublimehouse_logo_white.png", id: "top", class: "navbar-sublimes-logo"%>
             <% else %>
-              <%= image_tag "sublimehouse_logo_black.png", width: "800", id: "top", class: "navbar-sublimes-logo"%>
+              <%= image_tag "sublimehouse_logo_black.png", id: "top", class: "navbar-sublimes-logo"%>
             <% end %>
           <% end %>
     </div>
-
-<!--     <div class="navbar-sublimes-menu navbar-sublimes-menu-link">
-      <%= link_to "TEAM", "/team.html", class: "navbar-sublimes-link" %>
-      <%= link_to "GET INVOLVED", "/getinvolved.html", class: "navbar-sublimes-link" %>
-    </div>
-
-    <div class="navbar-sublimes-item">
-      <%= link_to "GET INVOLVED", "/getinvolved.html", class: "navbar-sublimes-link" %>
-    </div>
- -->
     <div class="navbar-sublimes-menu">
       <div class="navbar-sublimes-link about-link">
         <%= link_to "ABOUT", "/about.html"%>
