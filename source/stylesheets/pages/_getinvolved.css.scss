@@ -44,7 +44,21 @@
   &-banner {
     background-image: url('https://static.pexels.com/photos/6552/nature-person-red-woman.jpg');
     text-shadow: 0px 2px 2px #5A5A5A;
+    background-size: cover;
     display: flex;
+    & .container {
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &-gradient-banner {
+    background: linear-gradient(205deg, rgba(168, 0, 132, 0.74) 0%, rgba(0, 24, 61, 0.67) 50%);
+    width: 100%;
+    position: absolute;
+    height: 75%;
   }
 
   .mail-link {

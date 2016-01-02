@@ -42,14 +42,17 @@
     display: flex;
     & .container {
       z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
-  .bg-gradient-banner {
-    height: 75%;
-  }
 
-  .paragraph {
-    padding: 0px;
+  &-gradient-banner {
+    background: linear-gradient(205deg, rgba(168, 0, 132, 0.74) 0%, rgba(0, 24, 61, 0.67) 50%);
+    width: 100%;
+    position: absolute;
+    height: 75%;
   }
 
   .text-left {
