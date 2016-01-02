@@ -1,9 +1,4 @@
 .getinvolved {
-  .navbar-sublimes-container{
-    position: relative;
-    border-bottom: 1px solid #E2E2E2;
-    box-shadow: 0px 0px 2px #D4D4D4;
-  }
   h1 {
     color: $gray-darker;
   }
@@ -18,40 +13,42 @@
   p {
     color: $gray-light;
   }
-  .sublimes-logo a {
-    color: $gray-darker;
+  .paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .navbar-sublimes-link a {
-    color: #9E9E9E;
+
+  .navbar-sublimes {
+    &-container {
+      position: relative;
+      border-bottom: 1px solid #E2E2E2;
+      box-shadow: 0px 0px 2px #D4D4D4;
+    }
+    .sublimes-logo a {
+      color: $gray-darker;
+    }
+    .navbar-sublimes-link a {
+      color: #9E9E9E;
+    }
+    .navbar-sublimes-link a:hover,
+    .sublimes-logo a:hover {
+      color: $red;
+      text-decoration: none;
+    }
+    .getinvolved-link a {
+      color: $gray-darker;
+    }
   }
-  .navbar-sublimes-link a:hover,
-  .sublimes-logo a:hover {
-    color: $red;
-    text-decoration: none;
+
+  &-banner {
+    background-image: url('https://static.pexels.com/photos/6552/nature-person-red-woman.jpg');
   }
-  .navbar-sublimes .getinvolved-link a {
-    color: $gray-darker;
-  }
-  .get-involved-banner {
-    background-image: url("http://www.dreamalittlebigger.com/wp-content/uploads/2015/03/003-galaxy-easter-eggs-dreamalittlebigger.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
-  }
-  .get-involved-banner p {
-    font-size: 68px;
-    line-height: 1em;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 0.0588235em;
-    padding-top: 8%;
-    margin: 0px;
-    color: white;
-  }
+
   .mail-link {
     height: 57px;
     padding-top: 15px;
-    margin-top: 75px;
+    margin-top: 55px;
     margin-bottom: 25px;
   }
 }

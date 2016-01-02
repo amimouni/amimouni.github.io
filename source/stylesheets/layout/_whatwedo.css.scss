@@ -103,10 +103,31 @@
 
 }
 
+.boost-image {
+  overflow: hidden;
+}
 
 
-
-
-
+/********* responsive **********/
+/** mobile **/
+@media (max-width: 767px) {
+  li {
+    line-height: 1.4em;
+    margin-bottom: 0.5em;
+  }
+  .the-sublimes .row {
+    width: 100%;
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  .features {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    img {
+      width: 110px;
+    }
+  }
+}
 
 

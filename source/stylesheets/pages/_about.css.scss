@@ -1,49 +1,48 @@
 .about {
-  .navbar-sublimes-container{
-    position: relative;
-    border-bottom: 1px solid #E2E2E2;
-    box-shadow: 0px 0px 2px #D4D4D4;
-  }
   h1 {
     color: $gray-darker;
   }
-
   h2 {
     color: $gray-dark;
-    margin: 0;
   }
-
   h3 {
     margin: 0px;
-  }
-  .sublimes-logo a {
-    color: $gray-darker;
-  }
-  .navbar-sublimes-link a {
-    color: #9E9E9E;
-  }
-  .navbar-sublimes-link a:hover,
-  .sublimes-logo a:hover {
-    color: $red;
-    text-decoration: none;
-  }
-  .navbar-sublimes .about-link a {
-    color: $gray-darker;
   }
   p {
     color: $gray-light;
   }
-  .text-left {
-    display: relative;
+
+  .navbar-sublimes {
+    &-container {
+      position: relative;
+      border-bottom: 1px solid #E2E2E2;
+      box-shadow: 0px 0px 2px #D4D4D4;
+    }
+    .sublimes-logo a {
+      color: $gray-darker;
+    }
+    .navbar-sublimes-link a {
+      color: #9E9E9E;
+    }
+    .navbar-sublimes-link a:hover,
+    .sublimes-logo a:hover {
+      color: $red;
+      text-decoration: none;
+    }
+    .about-link a {
+      color: $gray-darker;
+    }
   }
-  &-container {
+
+  &-banner {
     background-image: url('https://static.pexels.com/photos/4952/sky-beach-vacation-summer.jpeg');
     background-position: -3000px -5500px;
     background-size: 160%;
-    h1, h2, h3, p, ul, li {
-      color: white;
-    }
     text-shadow: 0px 2px 2px #5A5A5A;
     display: flex;
+  }
+
+  .text-left {
+    display: relative;
   }
 }
