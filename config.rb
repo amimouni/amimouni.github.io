@@ -72,7 +72,8 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  ignore '/**/less/*.css'
+  # ignore '/**/less/*.css'
+
   activate :relative_assets
   set :relative_links, true
 
@@ -81,6 +82,8 @@ configure :build do
 end
 
 # Deployment
+
+
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true
