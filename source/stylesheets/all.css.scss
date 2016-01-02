@@ -96,8 +96,7 @@ a {
 }
 
 .main-container {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 0px;
 }
 
 .paragraph {
@@ -117,9 +116,13 @@ a {
 .main-container {
   background-image: url('https://static.pexels.com/photos/7117/mountains-night-clouds-lake.jpg');
   // background-image: url('https://static.pexels.com/photos/6657/snow-landscape-nature-sky.jpeg');
-  background-position: -990px -314px;
-  background-size: 165%;
+  // background-position: -990px -314px;
+  background-size: cover;
+  & .paragraph {
+    padding: 0;
+  }
 }
+
 .city-container {
   background-image: url('http://yg7tq1vvkcf2n8oyl2crp7ov.wpengine.netdna-cdn.com/wp-content/uploads/sites/3/2015/10/sea-city-landscape-sky.jpg');
   background-position: 0 -350px;
