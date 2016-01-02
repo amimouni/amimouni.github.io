@@ -48,13 +48,14 @@ configure :development do
   activate :livereload
 end
 
-activate :google_analytics do |ga|
-    ga.tracking_id = data.settings.google_analytics.tracking_code
-    ga.anonymize_ip = true
-    ga.debug = false
-    ga.development = false
-    ga.minify = true
-end
+#NEED TO ACTIVATE THIS FOR GOOGLE ANALYTICS
+# activate :google_analytics do |ga|
+#     ga.tracking_id = data.settings.google_analytics.tracking_code
+#     ga.anonymize_ip = true
+#     ga.debug = false
+#     ga.development = false
+#     ga.minify = true
+# end
 
 # Methods defined in the helpers block are available in templates
 # helpers do

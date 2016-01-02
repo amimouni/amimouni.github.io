@@ -31,7 +31,7 @@ gem "middleman-favicon-maker", "~> 3.7"
 
 gem 'middleman-protect-emails'
 
-gem 'middleman-google-analytics', '~> 2.0'
+# gem 'middleman-google-analytics', '~> 2.0'
 
 ruby '2.2.3'
 
