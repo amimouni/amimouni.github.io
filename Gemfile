@@ -27,4 +27,8 @@ gem 'middleman-autoprefixer'
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
 
+
+gem "middleman-favicon-maker", "~> 3.7"
+
 ruby '2.2.3'
+

@@ -22,10 +22,14 @@
       <meta name="twitter:creator" content="@SublimeHouse">
       <meta name="twitter:image:src" content="http://twitter-card.jpg">
 
+      <%= partial "favicon" %>
+
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Sublime House" %></title>
 
+
     <%= stylesheet_link_tag "all" %>
+
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
