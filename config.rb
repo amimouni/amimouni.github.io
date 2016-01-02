@@ -13,6 +13,8 @@ activate :autoprefixer
 # Clean adresses
 activate :directory_indexes
 
+activate :protect_emails
+
 ###
 # Page options, layouts, aliases and proxies
 ###
