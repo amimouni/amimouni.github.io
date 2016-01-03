@@ -119,6 +119,10 @@ configure :build do
         ]
       }
   end
+
+  # Site map
+  activate :sitemap, hostname: data.settings.site.url
+
 end
 
 # Gzip compression
