@@ -2,98 +2,20 @@
   display: flex;
 }
 
-.modal-content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  //opacity: 0.6;
-  //padding: 100px;
-  display: flex;
+.bg-white {
+  background-color: white;
 }
 
-.modal-inner {
-  max-width: 600px;
-  margin: auto;
-  flex: 1;
-}
-
-.modal-header {
-  border-bottom: none;
-}
-
-.modal-footer {
-  border-top: none;
-}
-
-.form-inline .form-control {
-  display: block;
-  width: 100%;
-}
-
-.field-container {
-  margin: 0px 0px 20px 0px;
-}
-
-.name .field {
-  width: 48%;
-  float: left;
-  font-size: 11px;
-  font-weight: 100;
-}
-
-.modal .field-title {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 7px;
-}
-
-label {
-  font-weight: 100;
-  width: 100%;
-  margin-bottom: 0;
-}
-
-label p {
-  margin: 10px 0 0 0;
-}
-
-.btn-submit {
-  font-family: $my-font, sans-serif;
+.font-price {
+  h2 {
+  color: $green;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 600;
-  font-style: normal;
-  margin: 1em 0 .8em;
-  text-rendering: optimizeLegibility;
-  background-color: $red;
-  color: white;
-  border-radius: 2px;
-  padding: 14px 34px;
-  border: none;
-  height: 43px;
-  border-radius: 2px;
-  font-size: 16px;
-  height: 48px;
-  width: 248px;
-  margin-top: 20px;
-  transition: 0.1s all ease;
-  outline: none;
-  &:hover {
-    color: white;
-    background-color: $red-darker;
-    text-decoration: none;
-    text-shadow: none;
-  }
-  &:visited {
-    text-decoration: none;
+
   }
 }
 
-.modal-header .close {
-  outline: none;
-}
+
+/******* Prices Tab *********/
 
 .container-pricing {
   // background: $green;
@@ -108,54 +30,6 @@ label p {
   font-style: normal;
   margin: 0;
   color: $gray-darker;
-}
-.pricing-circle-container {
-// padding-bottom: 2em;
-
-}
-
-//   strong {
-//     marging: 0px;
-//     color: white;
-//     font-size: 50px;
-//     letter-spacing: 2px;
-//     font-weight: 800;
-//   }
-// }
-
-// .pricing p {
-//   margin: 14px 0px 14px 0px;
-//   color: white;
-// }
-
-
-// .grey-outline-up {
-//   // background-color: #f5f5f5;
-//   border-top: 1px solid #ccc;
-//   border-left: 1px solid #ccc;
-//   border-right: 1px solid #ccc;
-//   border-radius: 2px;
-//   padding: 1em;
-//   // box-shadow: 0px 1px 2px #DEDEDE;
-// }
-// .grey-outline-all {
-//   // background-color: #f5f5f5;
-//   border: 1px solid #ccc;
-//   border-radius: 2px;
-//   padding: 4em;
-//   // box-shadow: 0px 1px 2px #DEDEDE;
-// }
-
-.bg-white {
-  background-color: white;
-}
-
-.font-price {
-  h2 {
-  color: $green;
-  text-transform: uppercase;
-
-  }
 }
 
 .pricetag-circle {
@@ -201,7 +75,111 @@ label p {
   padding-top: 14px;
 }
 
-/** mobile **/
+/********* Apply Button ***********/
+
+.btn-submit {
+  font-family: $my-font, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-style: normal;
+  margin: 1em 0 .8em;
+  text-rendering: optimizeLegibility;
+  background-color: $red;
+  color: white;
+  border-radius: 2px;
+  padding: 14px 34px;
+  border: none;
+  height: 43px;
+  border-radius: 2px;
+  font-size: 16px;
+  height: 48px;
+  width: 248px;
+  margin-top: 20px;
+  transition: 0.1s all ease;
+  outline: none;
+  &:hover {
+    color: white;
+    background-color: $red-darker;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+
+/******* Apply Modal **********/
+
+.modal {
+  font-family: $my-font, sans-serif;
+  color: $gray-dark;
+  &-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    //opacity: 0.6;
+    //padding: 100px;
+    display: flex;
+  }
+  &-inner {
+    max-width: 600px;
+    margin: auto;
+    flex: 1;
+  }
+  &-header {
+    border-bottom: none;
+  }
+  &-subtitle {
+    color: $red;
+  }
+  &-footer {
+    border-top: none;
+  }
+  .field-container {
+    margin: 0px 0px 20px 0px;
+  }
+  .name .field {
+    width: 48%;
+    float: left;
+    font-size: 11px;
+    font-weight: 100;
+  }
+  .field-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+  .form-inline .form-control {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+  }
+  input:focus {
+    outline: none !important;
+    border: 1px solid $red;
+    box-shadow: 0 0 10px $red;
+  }
+  &-header .close {
+    outline: none;
+  }
+  label {
+    font-weight: 100;
+    width: 100%;
+    margin-bottom: 0;
+    p {
+      margin: 10px 0 0 0;
+      font-size: 1em;
+    }
+  }
+}
+
+
+/********** Responsive Mobile ********/
+
 @media (max-width: 767px) {
   .pricetag-circle {
     margin: auto;
