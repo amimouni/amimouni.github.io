@@ -96,45 +96,102 @@ label p {
 }
 
 .container-pricing {
-  background: $green;
+  // background: $green;
   margin-bottom: 20px;
   padding: 20px 0px 20px 0px;
 }
 .container-pricing span {
   // text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 20px;
+  letter-spacing: 2px;
+  font-size: 24px;
   font-weight: 600;
   font-style: normal;
   margin: 0;
+  color: $gray-darker;
+}
+.pricing {
+padding-bottom: 2em;
+
+}
+
+//   strong {
+//     marging: 0px;
+//     color: white;
+//     font-size: 50px;
+//     letter-spacing: 2px;
+//     font-weight: 800;
+//   }
+// }
+
+// .pricing p {
+//   margin: 14px 0px 14px 0px;
+//   color: white;
+// }
+
+
+// .grey-outline-up {
+//   // background-color: #f5f5f5;
+//   border-top: 1px solid #ccc;
+//   border-left: 1px solid #ccc;
+//   border-right: 1px solid #ccc;
+//   border-radius: 2px;
+//   padding: 1em;
+//   // box-shadow: 0px 1px 2px #DEDEDE;
+// }
+// .grey-outline-all {
+//   // background-color: #f5f5f5;
+//   border: 1px solid #ccc;
+//   border-radius: 2px;
+//   padding: 4em;
+//   // box-shadow: 0px 1px 2px #DEDEDE;
+// }
+
+.bg-white {
+  background-color: white;
+}
+
+.font-price {
+  h2 {
+  color: $green;
+  text-transform: uppercase;
+
+  }
+}
+
+.pricetag-circle {
   color: white;
+  display: block;
+  background: $green;
+  width: 230px;
+  height: 230px;
+  padding-top: 60px;
+  border-radius: 200px;
+  margin: 0 auto;
+  border: 5px solid $green;;
+  box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.1);
+
+  span {
+    display: block;
+  }
 }
-.pricing span {
-  marging: 0;
-  color: #595A57;
-  font-size: 24px;
+
+.pricetag-label {
+  display: block;
+  color: rgba(255,255,255,0.8);
+}
+
+.pricetag-number {
+  display: block;
+  font-size: 4.6rem;
+  // line-height: 1em;
+  font-weight: 600;
+  text-align: center;
+  color: #FFF;
   letter-spacing: 2px;
-  font-weight: 400;
-}
-.pricing p {
-  margin: 14px 0px 14px 0px;
 }
 
+.month {
 
-.grey-outline-up {
-  // background-color: #f5f5f5;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-radius: 2px;
-  padding: 1em;
-  // box-shadow: 0px 1px 2px #DEDEDE;
 }
-.grey-outline-all {
-  // background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  padding: 1em;
-  // box-shadow: 0px 1px 2px #DEDEDE;
-}
+
 

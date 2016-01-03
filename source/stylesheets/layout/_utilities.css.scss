@@ -21,7 +21,7 @@
   background: #3b5998;
 }
 .grey-bg {
-  background: #F9F9F6;
+  background: #EFEFEF;
 }
 .grey-bg-darker {
   background: #E4E4E4;
@@ -33,7 +33,7 @@
   background: $red;
 }
 .bg-green-light {
-  background: $green;
+  background: linear-gradient(-90deg, #D4E457 0%, #00c5a6 50%);
 }
 .bg-dark{
   background: rgba(34, 34, 34, 0.26);
