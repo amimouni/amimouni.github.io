@@ -1,5 +1,6 @@
 .partner-icons {
-  margin: 25px 0px 50px 0px;
+  // margin: 25px 0px 25px 0px;
+  margin: 1.5em 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +10,8 @@
 }
 
 .become-partner-btn {
-  height: 100px;
+  display: inline-block;
+  margin: 2em 0px;
 }
 
 .become-partner-btn {
@@ -26,10 +28,13 @@
 }
 
 @media (max-width: 767px) {
-  .partner-icons img {
-    width: 75px;
+  .partner-icons {
+    margin: 1em 0;
+    img {
+      width: 75px;
+    }
   }
-  // .become-partner-btn a {
-  //   height: 55px;
-  // }
+  .become-partner-btn {
+    margin: 1.5em 0px;
+  }
 }
