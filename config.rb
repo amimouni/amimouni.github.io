@@ -82,7 +82,7 @@ configure :build do
   # activate :minify_html, remove_input_attributes: false
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
   ignore '/**/less/*.css'
@@ -127,6 +127,15 @@ end
 
 # Gzip compression
  activate :gzip
+
+#sitemap ping
+ activate :sitemap_ping do |config|
+   config.host         = 'http://www.hellosublimehouse.com' # (required)                       Host of your website
+   config.sitemap_file = 'custom-sitemap-file.xml'  # (optional, default: sitemap.xml) Name of your sitemap file
+   config.ping_google  = false                      # (optional, default: true)        Ping Google?
+   config.ping_bing    = false                      # (optional, default: true)        Ping Bing?
+   config.after_build  = false                      # (optional, default: true)        Run automatically after build?
+ end
 
 
 # Deployment
