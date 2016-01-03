@@ -1,0 +1,5 @@
+# config/meta.yml
+meta_title: "Sublime House"
+meta_description: "- Retreat for women in tech who want to grow"
+meta_image: "sublimehouse.jpg" # Une image dans votre dossier app/assets/images/
+twitter_account: "contact@hellosublimehouse.com" # indispensable pour les Twitter Cards
