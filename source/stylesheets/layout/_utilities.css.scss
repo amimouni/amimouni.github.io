@@ -36,7 +36,8 @@
   background: linear-gradient(-90deg, #D4E457 0%, #00c5a6 50%);
 }
 .bg-dark{
-  background: rgba(34, 34, 34, 0.26);
+  background: linear-gradient(0deg, rgba(255, 81, 0, 0.7) 0%, rgba(255, 0, 0, 0.5) 50%);
+  // background: rgba(34, 34, 34, 0.26);
   padding: 150px 0px 150px 0px;
   width: 100%;
   color: white;
