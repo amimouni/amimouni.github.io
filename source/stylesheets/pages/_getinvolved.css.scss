@@ -67,4 +67,12 @@
     margin-top: 55px;
     margin-bottom: 25px;
   }
+
+  @media (max-width: 767px) {
+    .red-button {
+      font-size: 14px;
+      padding: 11px 15px;
+      letter-spacing: 2px;
+    }
+  }
 }
