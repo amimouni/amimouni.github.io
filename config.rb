@@ -78,6 +78,9 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
+
+  activate :minify_html, remove_input_attributes: false
+
   # Enable cache buster
   # activate :asset_hash
 
@@ -118,8 +121,11 @@ configure :build do
   end
 end
 
-# Deployment
+# Gzip compression
+ activate :gzip
 
+
+# Deployment
 
 activate :deploy do |deploy|
   deploy.method = :git
