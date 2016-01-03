@@ -109,8 +109,8 @@ label p {
   margin: 0;
   color: $gray-darker;
 }
-.pricing {
-padding-bottom: 2em;
+.pricing-circle-container {
+// padding-bottom: 2em;
 
 }
 
@@ -161,13 +161,13 @@ padding-bottom: 2em;
 .pricetag-circle {
   color: white;
   display: block;
-  background: $green;
+  background: white;
   width: 230px;
   height: 230px;
   padding-top: 60px;
   border-radius: 200px;
-  margin: 0 auto;
-  border: 5px solid $green;;
+  margin: 3em auto;
+  border: 6px solid $green;;
   box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.1);
 
   span {
@@ -177,7 +177,9 @@ padding-bottom: 2em;
 
 .pricetag-label {
   display: block;
-  color: rgba(255,255,255,0.8);
+  color: $gray;
+  font-weight: 600;
+  // letter-spacing: 2px;
 }
 
 .pricetag-number {
@@ -186,11 +188,12 @@ padding-bottom: 2em;
   // line-height: 1em;
   font-weight: 600;
   text-align: center;
-  color: #FFF;
+  color: $green;
   letter-spacing: 2px;
 }
 
 .month {
+  font-weight: 100;
 
 }
 
