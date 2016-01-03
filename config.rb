@@ -79,7 +79,7 @@ configure :build do
   activate :minify_javascript
 
 
-  activate :minify_html, remove_input_attributes: false
+  # activate :minify_html, remove_input_attributes: false
 
   # Enable cache buster
   # activate :asset_hash
@@ -121,7 +121,7 @@ configure :build do
   end
 
   # Site map
-  activate :sitemap, hostname: data.settings.site.url
+  # activate :sitemap, hostname: data.settings.site.url
 
 end
 
