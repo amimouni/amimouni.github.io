@@ -32,8 +32,10 @@
 .bg-red {
   background: $red;
 }
+
+
 .bg-green-light {
-  background: linear-gradient(-90deg, #D4E457 0%, #00c5a6 50%);
+  background: linear-gradient(270deg, rgba(255, 81, 0, 0.7) 0%, rgba(255, 0, 0, 0.5) 50%);
 }
 .bg-dark{
   background: linear-gradient(0deg, rgba(255, 81, 0, 0.7) 0%, rgba(255, 0, 0, 0.5) 50%);
@@ -63,7 +65,7 @@
 }
 
 .bg-dark-lisbon{
-  background: linear-gradient(0deg, rgba(255, 81, 0, 0.7) 0%, rgba(255, 9, 0, 0.34) 50%);
+  background: linear-gradient(0deg, rgba(53, 53, 53, 0.7) 0%, rgba(77, 77, 77, 0.3) 50%);
   // background: rgba(34, 34, 34, 0.26);
   padding: 150px 0px 150px 0px;
   width: 100%;
