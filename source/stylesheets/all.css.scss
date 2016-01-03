@@ -117,6 +117,9 @@ a {
   background-image: url('https://static.pexels.com/photos/7117/mountains-night-clouds-lake.jpg');
   // background-image: url('https://static.pexels.com/photos/6657/snow-landscape-nature-sky.jpeg');
   // background-position: -990px -314px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   & .paragraph {
     padding: 0;
