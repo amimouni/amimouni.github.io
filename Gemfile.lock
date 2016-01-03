@@ -100,8 +100,6 @@ GEM
       rack-livereload
     middleman-protect-emails (0.3.1)
       middleman-core (~> 3.2)
-    middleman-sitemap (0.0.13)
-      middleman-core (>= 3.2.2)
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -169,7 +167,6 @@ DEPENDENCIES
   middleman-favicon-maker (~> 3.7)
   middleman-livereload (~> 3.1.0)
   middleman-protect-emails
-  middleman-sitemap
   puma
   rails_12factor
   tzinfo-data
