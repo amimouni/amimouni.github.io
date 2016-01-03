@@ -38,18 +38,8 @@
     padding-top: 120px;
     flex: 1;
   }
-  /** mobile **/
-  @media (max-width: 767px) {
-    h1 {
-      font-size: 48px;
-    }
-    h2 {
-      font-size: 22px;
-    }
-  }
-}
 
-.banner-content {
+  &-content {
     flex: 1;
     margin: 0px;
     align-items: center;
@@ -70,13 +60,6 @@
       line-height: 74px;
       padding: 18px 34px;
       border: 2px solid white;
-      @media (max-width: 767px) {
-        font-size: 14px;
-        letter-spacing: 2px;
-        padding: 11px 15px;
-        text-transform: none;
-        font-weight: 400;
-      }
       &:hover {
         color: white;
         border-color: $red;
@@ -86,6 +69,55 @@
       }
     }
   }
+
+  /** mobile **/
+  @media (max-width: 350px) {
+    h1 {
+      font-size: 32px;
+      padding-top: 30%;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    &-content-button {
+      font-size: 13px;
+      letter-spacing: 2px;
+      padding: 11px 15px;
+      text-transform: none;
+      font-weight: 400;
+    }
+    .date-apply-padding-down {
+      padding-top: 60px;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  @media (min-width: 350px) and (max-width: 767px) {
+    h1 {
+      font-size: 40px;
+      padding-top: 40%;
+    }
+    h2 {
+      font-size: 19px;
+    }
+    &-content-button {
+      font-size: 14px;
+      letter-spacing: 2px;
+      padding: 11px 15px;
+      text-transform: none;
+      font-weight: 400;
+    }
+    .date-apply-padding-down {
+      padding-top: 110px;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+
+
 
 
 // .main-gradient-banner {
