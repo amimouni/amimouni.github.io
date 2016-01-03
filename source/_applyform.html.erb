@@ -41,7 +41,7 @@
       </div>
       <div class="col-xs-12" >
         <div class="price price-padding fade-and-slide button-paddingtop">
-          <%= button_tag "Apply now", data: { toggle: "modal", target: "#myModal"}, id:"apply", class: "red-button" %>
+          <%= button_tag "Apply now", data: { toggle: "modal", target: "#applyModal"}, id:"apply", class: "red-button" %>
         </div>
       </div>
     </div>
@@ -70,14 +70,15 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="applyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="" role="document">
     <div class="modal-content grey-bg">
     <div class="modal-inner">
 
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h5 class="modal-title" id="myModalLabel">Immerse yourself in an inspiring & friendly environment <br>for a month changing life experience !</h5>
+        <h5 class="modal-title" id="myModalLabel">Immerse yourself in an inspiring & friendly environment <br>for a month changing life experience</h5>
+        <h6 class="modal-subtitle">Leave us your mail and we will get back to you. We definitely want to know you better!</h6>
       </div>
 
       <div class="modal-body">
@@ -87,7 +88,7 @@
             <div class="field-title required">Name</div>
             <div class="field first-name">
               <label class="caption">
-                <input name="FNAME"  id="mce-FNAME" x-autocompletetype="given-name" type="text" spellcheck="false" maxlength="30" data-title="First" class="grey-bg form-control" required>
+                <input name="FNAME"  id="mce-FNAME" x-autocompletetype="given-name" type="text" spellcheck="false" maxlength="30" data-title="First" class="grey-bg form-control" required autofocus>
                 <p>First Name</p>
               </label>
             </div>
@@ -102,7 +103,7 @@
             <label class="field-title required">Email</label>
             <input name="EMAIL" id="mce-EMAIL" x-autocompletetype="email" type="email" spellcheck="false" class="grey-bg form-control" required>
           </div>
-          <div  class="about-you field-container">
+<!--           <div  class="about-you field-container">
             <label class="field-title required">Tell us a little bit about yourself</label>
             <input type="text" value="" name="FNAME"  id="mce-FNAME" placeholder="" class="grey-bg form-control">
           </div>
@@ -110,7 +111,7 @@
             <label class="field-title required">Tell us about your project for the month</label>
             <input type="text" value="" name="FNAME"  id="mce-FNAME" placeholder="" class="grey-bg form-control">
           </div>
-
+ -->
           <!-- do not remove this or risk form bot signups -->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0ce30d996a3f1a97cdff4652f_00b91c6bae" tabindex="-1" value=""></div>
           <input type="submit" value="Join us" name="subscribe" id="mc-embedded-subscribe" class="btn-submit pull-right">
