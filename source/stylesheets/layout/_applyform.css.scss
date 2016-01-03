@@ -196,6 +196,11 @@ label p {
   font-weight: 100;
 }
 
+.price input {
+  height: 60px;
+  padding-top: 14px;
+}
+
 /** mobile **/
 @media (max-width: 767px) {
   .pricetag-circle {
@@ -225,11 +230,12 @@ label p {
     letter-spacing: 0px;
     font-size: 14px;
   }
+  .price input {
+    height: 45px;
+    padding-top: 10px;
+  }
 }
 
 // @media (min-width: 350px) and (max-width: 767px) {
 // }
-.price input {
-  height: 60px;
-  padding-top: 14px;
-}
+
