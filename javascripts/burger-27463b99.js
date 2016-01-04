@@ -1,0 +1,1 @@
+$("document").ready(function(){function s(){1==o?(e.removeClass("is-open"),e.addClass("is-closed"),o=!1):(e.removeClass("is-closed"),e.addClass("is-open"),o=!0)}var e=$("#hamburger"),o=!0;e.click(function(){s()})});
