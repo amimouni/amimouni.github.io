@@ -33,6 +33,8 @@ gem 'middleman-protect-emails'
 
 gem 'middleman-sitemap-ping'
 
+gem "middleman-minify-html"
+
 # gem 'middleman-sitemap'
 
 # gem 'middleman-google-analytics', '~> 2.0'
