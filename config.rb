@@ -2,10 +2,9 @@
 # Compass
 ###
 
+
 # Change Compass configuration
-compass_config do |config|
-  config.output_style = :compact
-end
+
 
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
@@ -47,6 +46,8 @@ activate :protect_emails
 configure :development do
   activate :livereload
 end
+
+
 
 #NEED TO ACTIVATE THIS FOR GOOGLE ANALYTICS
 # activate :google_analytics do |ga|
