@@ -57,7 +57,62 @@
     text-decoration: none;
     text-shadow: none;
   }
+
+
+.dropdown {
+  color: yellow;
 }
+.fa {
+  font-size: 25px;
+}
+
+}
+
+// .navbar-toggle {
+//   border: none;
+//   transition: all 0.2s;
+//   // background: transparent !important;
+//   &:hover {
+//   // background: transparent !important;
+//   }
+//   .bar {
+//     margin: 2px;
+//     border-radius: 5px;
+//     border: 2px solid white;
+//     -ms-transform: rotate(45deg);
+//     -webkit-transform: rotate(45deg);
+//     transform: rotate(45deg);
+//   }
+//   .top-bar {
+//     transform: rotate(45deg);
+//     transform-origin: 10% 10%;
+//   }
+//   .middle-bar {
+//     opacity: 0;
+//   }
+//   .bottom-bar {
+//     transform: rotate(-45deg);
+//     transform-origin: 10% 90%;
+//   }
+// }
+// .navbar-toggle.collapsed {
+//   .top-bar {
+//     -ms-transform: rotate(45deg);
+//     -webkit-transform: rotate(45deg);
+//     transform: rotate(45deg);
+//   }
+//   .middle-bar {
+//     opacity: 1;
+//   }
+//   .bottom-bar {
+//     -ms-transform: rotate(45deg);
+//     -webkit-transform: rotate(45deg);
+//     transform: rotate(45deg);
+//   }
+// }
+
+
+
 
 /********* responsive **********/
 /** mobile **/
