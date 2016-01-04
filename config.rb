@@ -41,7 +41,7 @@ activate :protect_emails
 ###
 
 # Automatic image dimensions on image_tag helper
-activate :automatic_image_sizes
+# activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 configure :development do
