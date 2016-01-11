@@ -15,13 +15,13 @@
     padding-left: 3em;
 
     span {
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 8px;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1em;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 8px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 1em;
     }
   }
   &-menu {
@@ -59,12 +59,12 @@
   }
 
 
-.dropdown {
-  color: yellow;
-}
-.fa {
-  font-size: 25px;
-}
+  .dropdown {
+    color: yellow;
+  }
+  .fa {
+    font-size: 25px;
+  }
 
 }
 
@@ -119,8 +119,8 @@
 @media (max-width: 767px) {
   .navbar-sublimes {
     &-container {
-      padding-right: 4px;
-      padding-left: 4px;
+      padding-right: 10px;
+      padding-left: 10px;
     }
     &-logo {
       width: 180px;
@@ -128,6 +128,65 @@
     &-link {
       font-size: 10px;
       padding: 0 5px 0 5px;
+    }
+    .sublimes-logo {
+      flex: 1;
+    }
+    .burger {
+      padding: 0px 5px;
+      height: 26px;
+      width: 50px;
+      .dropdown-menu {
+        left: -84px;
+        min-width: 116px;
+        margin-top: 40px;
+        padding: 2px 0 0 0;
+      }
+      .divider {
+        margin: 0;
+      }
+      li {
+        margin-top: 0.5em;
+      }
+      span {
+        border: 1px solid;
+        margin: 12px 3px;
+        position: absolute;
+        right: 0;
+        width: 25px;
+      }
+      a:hover {
+        color: white;
+      }
+      .top-bar {
+        top: -8px;
+      }
+      .bottom-bar {
+        top: 8px;
+      }
+      .open {
+        .top-bar,
+        .middle-bar,
+        .bottom-bar {
+          -webkit-transition: all 0.4s; /* Safari */
+          transition: all 0.4s;
+        }
+        .top-bar {
+          top: 0px;
+          transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+        }
+        .middle-bar {
+          display: none;
+        }
+        .bottom-bar {
+          top: 0px;
+          transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+        }
+      }
     }
   }
 }
