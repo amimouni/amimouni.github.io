@@ -32,6 +32,10 @@
     .about-link a {
       color: $gray-darker;
     }
+    .burger span {
+      border-color: $gray-darker;
+    }
+
   }
 
   &-banner {
@@ -51,16 +55,16 @@
     }
   }
 
-   &-gradient-banner {
+  &-gradient-banner {
   //   background: linear-gradient(0deg, rgba(255, 81, 0, 0.7) 0%, rgba(255, 0, 0, 0.5) 50%);
-       width: 100%;
+  width: 100%;
   //   position: absolute;
        // height: 100%;
        display: flex;
-   }
+     }
 
-  .text-left {
-    display: relative;
+     .text-left {
+      display: relative;
+    }
+
   }
-
-}
