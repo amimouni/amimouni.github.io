@@ -14,5 +14,5 @@ $(function() {
     }
   });
   // Scroll reveal
-  // window.sr = new scrollReveal();
+  window.sr = new scrollReveal();
 });
