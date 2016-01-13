@@ -37,6 +37,9 @@
   .date-apply-padding-down {
     padding-top: 120px;
     flex: 1;
+    p {
+      margin: 1em 0 .8em;
+    }
   }
 
   &-content {
