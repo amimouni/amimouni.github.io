@@ -111,6 +111,12 @@
 /********* responsive **********/
 /** mobile **/
 @media (max-width: 767px) {
+  .red-button {
+      font-size: 14px;
+      padding: 11px 15px;
+      letter-spacing: 2px;
+      border: 2px solid $red;
+    }
   li {
     line-height: 1.4em;
     margin-bottom: 0.5em;
