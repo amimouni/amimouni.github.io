@@ -96,7 +96,7 @@
       margin: 0;
     }
   }
-  @media (min-width: 350px) and (max-width: 1000px) {
+  @media (min-width: 350px) and (max-width: 767px) {
     h1 {
       font-size: 40px;
       padding-top: 40%;
@@ -119,6 +119,8 @@
     }
   }
 }
+
+
 
 
 
