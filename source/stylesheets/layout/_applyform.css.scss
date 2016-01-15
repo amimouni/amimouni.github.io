@@ -117,10 +117,10 @@
   color: $gray-dark;
   &-content {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
     //opacity: 0.6;
     //padding: 100px;
     display: flex;
