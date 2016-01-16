@@ -41,7 +41,6 @@
       margin: 1em 0 .8em;
     }
   }
-
   &-content {
     flex: 1;
     margin: 0px;
@@ -102,7 +101,8 @@
     }
   }
 }
-@media (min-width: 350px) & (max-width: 767px) {
+
+@media (min-width: 350px) and (max-width: 767px) {
   .banner {
     h1 {
       font-size: 40px;
