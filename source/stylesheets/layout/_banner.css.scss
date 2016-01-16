@@ -102,7 +102,7 @@
     }
   }
 }
-@media (min-width: 350px) and (max-width: 767px) {
+@media (min-width: 350px) & (max-width: 767px) {
   .banner {
     h1 {
       font-size: 40px;
@@ -126,19 +126,3 @@
     }
   }
 }
-
-
-
-
-
-
-// .main-gradient-banner {
-//   background: linear-gradient(205deg, rgba(168, 0, 132, 0.74) 0%, rgba(0, 24, 61, 0.67) 50%);
-//   width: 100%;
-//   position: absolute;
-//   height: 100%;
-//   top: 0px;
-// }
-
-
-

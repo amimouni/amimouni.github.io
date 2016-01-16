@@ -116,8 +116,6 @@ a {
 
 .main-container {
   background-image: url('https://static.pexels.com/photos/7117/mountains-night-clouds-lake.jpg');
-  // background-image: url('https://static.pexels.com/photos/6657/snow-landscape-nature-sky.jpeg');
-  // background-position: -990px -314px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -191,7 +189,7 @@ a {
     padding: 11px 15px;
   }
 }
-@media (min-width: 350px) and (max-width: 767px) {
+@media (min-width: 350px) & (max-width: 767px) {
   h1 {
     font-size: 26px;
   }
